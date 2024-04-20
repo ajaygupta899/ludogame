@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="start" onclick="startgame()">start</button>
+    <iframe
+      src="http://localhost/classicv2/"
+      id="iframex"
+      width="100%"
+      height="100%"
+      frameborder="0"
+    ></iframe>
+    <script src="./ludo_files/jquery.min.js"></script>
+
+    <script>
+      const btn = document.getElementById("start");
+      const targetOrigin = "http://localhost";
+
+      //      window.addEventListener("load", () => {
+      function getData2() {
+        var settings = {
+          url: sRoot + "/api/v1/ludo/game",
+          method: "GET",
+          timeout: 0,
+          headers: {
+            "Content-Type": "application/json",
+            "api-key": "0imfnc8mVLWwsAawjYr4Rx",
+          },
+        };
+
+        $.ajax(settings).done(function (response) {
+          userTokenOne = response.data.aPlayer[0].sUserToken;
+          userTokenTwo = response.data.aPlayer[1].sUserToken;
+
+          if ((userTokenOne && userTokenTwo) != "") {
+            $(".btn-new").css("display", "block");
+            $(".btn-new").css("display", "block");
+          }
+        });
+      }
+      let userTokenOne = "";
+      let userTokenTwo = "";
+
+      function startgame() {
+        const sRoot = "http://localhost:8080";
+
+        var settings = {
+          url: sRoot + "/api/v1/ludo/game",
+          method: "GET",
+          timeout: 0,
+          headers: {
+            "Content-Type": "application/json",
+            "api-key": "0imfnc8mVLWwsAawjYr4Rx",
+          },
+        };
+
+        $.ajax(settings).done(function (response) {
+          userTokenOne = response.data.player1;
+          userTokenTwo = response.data.gameid;
+        });
+        setTimeout(() => {
+          if (userTokenOne != "") {
+            const targetFrame = document.getElementById("iframex");
+            targetFrame.contentWindow.postMessage(
+              {
+                sUserToken: userTokenOne,
+                sGameId: userTokenTwo,
+                sRootUrl: "http://localhost:8080",
+              },
+              targetOrigin
+            );
+          }
+        }, 2000);
+      }
+      //    });
+    </script>
+  </body>
+</html>

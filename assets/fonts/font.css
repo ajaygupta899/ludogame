@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'CarterOne-Regular';
+    src: url('CarterOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('Montserrat-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('Montserrat-Bold.otf');
+}
+
+@font-face {
+    font-family: 'LeagueSpartan-SemiBold';
+    src: url('LeagueSpartan-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'LeagueSpartan-Light';
+    src: url('LeagueSpartan-Light.ttf');
+}
+
+@font-face {
+    font-family: 'veriox-rg-4';
+    src: url('veriox-rg-4.ttf');
+}
+
+@font-face {
+    font-family: 'VerioxBold';
+    src: url('VerioxBold.ttf');
+}
+
+@font-face {
+    font-family: 'myriadpro';
+    src: url('MYRIADPRO-BOLD.OTF');
+}
+
+@font-face {
+    font-family: 'adobeclean';
+    src: url('AdobeClean-Bold.otf');
+}

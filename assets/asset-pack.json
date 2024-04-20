@@ -1,0 +1,1076 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/avatars/avatar-f-1.png",
+                "type": "image",
+                "key": "avatar-f-1"
+            },
+            {
+                "url": "assets/images/avatars/avatar-f-2.png",
+                "type": "image",
+                "key": "avatar-f-2"
+            },
+            {
+                "url": "assets/images/avatars/avatar-f-3.png",
+                "type": "image",
+                "key": "avatar-f-3"
+            },
+            {
+                "url": "assets/images/avatars/avatar-f-4.png",
+                "type": "image",
+                "key": "avatar-f-4"
+            },
+            {
+                "url": "assets/images/avatars/avatar-f-5.png",
+                "type": "image",
+                "key": "avatar-f-5"
+            },
+            {
+                "url": "assets/images/avatars/avatar-f-6.png",
+                "type": "image",
+                "key": "avatar-f-6"
+            },
+            {
+                "url": "assets/images/avatars/avatar-m-1.png",
+                "type": "image",
+                "key": "avatar-m-1"
+            },
+            {
+                "url": "assets/images/avatars/avatar-m-2.png",
+                "type": "image",
+                "key": "avatar-m-2"
+            },
+            {
+                "url": "assets/images/avatars/avatar-m-3.png",
+                "type": "image",
+                "key": "avatar-m-3"
+            },
+            {
+                "url": "assets/images/avatars/avatar-m-4.png",
+                "type": "image",
+                "key": "avatar-m-4"
+            },
+            {
+                "url": "assets/images/avatars/avatar-m-5.png",
+                "type": "image",
+                "key": "avatar-m-5"
+            },
+            {
+                "url": "assets/images/avatars/avatar-m-6.png",
+                "type": "image",
+                "key": "avatar-m-6"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b1.png",
+                "type": "image",
+                "key": "b1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b10.png",
+                "type": "image",
+                "key": "b10"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b11.png",
+                "type": "image",
+                "key": "b11"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b2.png",
+                "type": "image",
+                "key": "b2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b3.png",
+                "type": "image",
+                "key": "b3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b4.png",
+                "type": "image",
+                "key": "b4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b5.png",
+                "type": "image",
+                "key": "b5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b6.png",
+                "type": "image",
+                "key": "b6"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b7.png",
+                "type": "image",
+                "key": "b7"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b8.png",
+                "type": "image",
+                "key": "b8"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/blue/b9.png",
+                "type": "image",
+                "key": "b9"
+            },
+            {
+                "url": [
+                    "assets/sounds/game/Back.mp3"
+                ],
+                "type": "audio",
+                "key": "Back"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Bar-Selected-player.png",
+                "type": "image",
+                "key": "Bar-Selected-player"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Blast_token.png",
+                "type": "image",
+                "key": "Blast_token"
+            },
+            {
+                "url": "assets/images/gameplay/blue.png",
+                "type": "image",
+                "key": "blue"
+            },
+            {
+                "url": "assets/images/result-screen/blue_exit.png",
+                "type": "image",
+                "key": "blue_exit"
+            },
+            {
+                "url": "assets/images/new_popup/blue_prompt.png",
+                "type": "image",
+                "key": "blue_prompt"
+            },
+            {
+                "url": "assets/images/gameplay/blue-particle.png",
+                "type": "image",
+                "key": "blue-particle"
+            },
+            {
+                "url": "assets/images/gameplay/blue-without-ring.png",
+                "type": "image",
+                "key": "blue-without-ring"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Blue/blue1.png",
+                "type": "image",
+                "key": "blue1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Blue/blue2.png",
+                "type": "image",
+                "key": "blue2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Blue/blue3.png",
+                "type": "image",
+                "key": "blue3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Blue/blue4.png",
+                "type": "image",
+                "key": "blue4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Blue/blue5.png",
+                "type": "image",
+                "key": "blue5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Blue/blue6.png",
+                "type": "image",
+                "key": "blue6"
+            },
+            {
+                "url": "assets/images/gameplay/board-classic-blue.png",
+                "type": "image",
+                "key": "board-classic-blue"
+            },
+            {
+                "url": "assets/images/gameplay/board-classic-green.png",
+                "type": "image",
+                "key": "board-classic-green"
+            },
+            {
+                "url": "assets/images/gameplay/board-classic-yellow.png",
+                "type": "image",
+                "key": "board-classic-yellow"
+            },
+            {
+                "url": "assets/images/match-making/box_shine.png",
+                "type": "image",
+                "key": "box_shine"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Catch_token.png",
+                "type": "image",
+                "key": "Catch_token"
+            },
+            {
+                "url": "assets/images/player-profile/Coin.png",
+                "type": "image",
+                "key": "Coin"
+            },
+            {
+                "url": "assets/images/match-making/coin-box.png",
+                "type": "image",
+                "key": "coin-box"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Coin-text.png",
+                "type": "image",
+                "key": "Coin-text"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Congratulations-bar.png",
+                "type": "image",
+                "key": "Congratulations-bar"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Congratulations-text.png",
+                "type": "image",
+                "key": "Congratulations-text"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Crown.png",
+                "type": "image",
+                "key": "Crown"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/crown1.png",
+                "type": "image",
+                "key": "crown1"
+            },
+            {
+                "url": "src/prefabs/Dice.js",
+                "type": "script",
+                "key": "Dice"
+            },
+            {
+                "url": "assets/images/player-profile/Dice-box.png",
+                "type": "image",
+                "key": "Dice-box"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/dice-roll-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "dice-roll-sound"
+            },
+            {
+                "url": "assets/animations/diceRole.json",
+                "type": "animation",
+                "key": "diceRole"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/dislike.png",
+                "type": "image",
+                "key": "dislike"
+            },
+            {
+                "url": "assets/images/gameplay/down_arrow Small.png",
+                "type": "image",
+                "key": "down_arrow Small"
+            },
+            {
+                "url": "assets/images/player-profile/Earth.png",
+                "type": "image",
+                "key": "Earth"
+            },
+            {
+                "url": "assets/images/gameplay/exit_icon.png",
+                "type": "image",
+                "key": "exit_icon"
+            },
+            {
+                "url": "assets/images/gameplay/exit_icon_disabled.png",
+                "type": "image",
+                "key": "exit_icon_disabled"
+            },
+            {
+                "url": "src/prefabs/ExitButtonPrefab.js",
+                "type": "script",
+                "key": "ExitButtonPrefab"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/F_Share_Btn.png",
+                "type": "image",
+                "key": "F_Share_Btn"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g1.png",
+                "type": "image",
+                "key": "g1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g10.png",
+                "type": "image",
+                "key": "g10"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g11.png",
+                "type": "image",
+                "key": "g11"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g2.png",
+                "type": "image",
+                "key": "g2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g3.png",
+                "type": "image",
+                "key": "g3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g4.png",
+                "type": "image",
+                "key": "g4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g5.png",
+                "type": "image",
+                "key": "g5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g6.png",
+                "type": "image",
+                "key": "g6"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g7.png",
+                "type": "image",
+                "key": "g7"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g8.png",
+                "type": "image",
+                "key": "g8"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/green/g9.png",
+                "type": "image",
+                "key": "g9"
+            },
+            {
+                "url": "src/scenes/Game.js",
+                "type": "sceneFile",
+                "key": "Game"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/game-start-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "game-start-sound"
+            },
+            {
+                "url": "src/prefabs/GameBoard.js",
+                "type": "script",
+                "key": "GameBoard"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/result-screen/gradient_background_popup.png",
+                "type": "image",
+                "key": "gradient_background_popup"
+            },
+            {
+                "url": "assets/images/match-making/gradient-background.png",
+                "type": "image",
+                "key": "gradient-background"
+            },
+            {
+                "url": "assets/images/gameplay/green.png",
+                "type": "image",
+                "key": "green"
+            },
+            {
+                "url": "assets/images/result-screen/green_exit.png",
+                "type": "image",
+                "key": "green_exit"
+            },
+            {
+                "url": "assets/images/player-profile/green-life.png",
+                "type": "image",
+                "key": "green-life"
+            },
+            {
+                "url": "assets/images/gameplay/green-particle.png",
+                "type": "image",
+                "key": "green-particle"
+            },
+            {
+                "url": "assets/images/gameplay/green-time-ring.png",
+                "type": "image",
+                "key": "green-time-ring"
+            },
+            {
+                "url": "assets/images/player-profile/Green-Timeline-Sibstracted.png",
+                "type": "image",
+                "key": "Green-Timeline-Sibstracted"
+            },
+            {
+                "url": "assets/images/gameplay/green-without-ring.png",
+                "type": "image",
+                "key": "green-without-ring"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Green/green1.png",
+                "type": "image",
+                "key": "green1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Green/green2.png",
+                "type": "image",
+                "key": "green2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Green/green3.png",
+                "type": "image",
+                "key": "green3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Green/green4.png",
+                "type": "image",
+                "key": "green4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Green/green5.png",
+                "type": "image",
+                "key": "green5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Green/green6.png",
+                "type": "image",
+                "key": "green6"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Home.png",
+                "type": "image",
+                "key": "Home"
+            },
+            {
+                "url": "src/components/InHouseEntryPointer.js",
+                "type": "script",
+                "key": "InHouseEntryPointer"
+            },
+            {
+                "url": "src/scripts/InputManager.js",
+                "type": "script",
+                "key": "InputManager"
+            },
+            {
+                "url": "assets/images/new_popup/Leave-icon.png",
+                "type": "image",
+                "key": "Leave-icon"
+            },
+            {
+                "url": "assets/images/player-profile/Left-Arrow-.png",
+                "type": "image",
+                "key": "Left-Arrow-"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Like.png",
+                "type": "image",
+                "key": "Like"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/ludo-button-toggle-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "ludo-button-toggle-sound"
+            },
+            {
+                "url": "src/prefabs/MatchmakingPlayer.js",
+                "type": "script",
+                "key": "MatchmakingPlayer"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Medal.png",
+                "type": "image",
+                "key": "Medal"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Menu_Btn.png",
+                "type": "image",
+                "key": "Menu_Btn"
+            },
+            {
+                "url": "assets/images/gameplay/movable-ring.png",
+                "type": "image",
+                "key": "movable-ring"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Music-Button.png",
+                "type": "image",
+                "key": "Music-Button"
+            },
+            {
+                "url": "assets/images/new_popup/Music-Button-01.png",
+                "type": "image",
+                "key": "Music-Button-01"
+            },
+            {
+                "url": "assets/images/new_popup/Music-on-.png",
+                "type": "image",
+                "key": "Music-on-"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/mute_btn.png",
+                "type": "image",
+                "key": "mute_btn"
+            },
+            {
+                "url": "assets/images/gameplay/network-loading.png",
+                "type": "image",
+                "key": "network-loading"
+            },
+            {
+                "url": "assets/images/match-making/new_user.png",
+                "type": "image",
+                "key": "new_user"
+            },
+            {
+                "url": "src/scripts/NewSocketManager.js",
+                "type": "script",
+                "key": "NewSocketManager"
+            },
+            {
+                "url": "assets/images/new_popup/no-button-01.png",
+                "type": "image",
+                "key": "no-button-01"
+            },
+            {
+                "url": "src/prefabs/ParticipantBarPrefab.js",
+                "type": "script",
+                "key": "ParticipantBarPrefab"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/pawn-die-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "pawn-die-sound"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/pawn-move-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "pawn-move-sound"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/pawn-reach-home-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "pawn-reach-home-sound"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/pawn-reach-safe-house-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "pawn-reach-safe-house-sound"
+            },
+            {
+                "url": "assets/images/match-making/player-1-avatar.png",
+                "type": "image",
+                "key": "player-1-avatar"
+            },
+            {
+                "url": "assets/images/match-making/player-2-avatar.png",
+                "type": "image",
+                "key": "player-2-avatar"
+            },
+            {
+                "url": "assets/images/match-making/player-3-avatar.png",
+                "type": "image",
+                "key": "player-3-avatar"
+            },
+            {
+                "url": "assets/images/match-making/player-4-avatar.png",
+                "type": "image",
+                "key": "player-4-avatar"
+            },
+            {
+                "url": "assets/images/gameplay/player-pawn-glow.png",
+                "type": "image",
+                "key": "player-pawn-glow"
+            },
+            {
+                "url": "src/scripts/PlayerManager.js",
+                "type": "script",
+                "key": "PlayerManager"
+            },
+            {
+                "url": "src/prefabs/PlayerProfile.js",
+                "type": "script",
+                "key": "PlayerProfile"
+            },
+            {
+                "url": "assets/images/new_popup/Pop-up-box.png",
+                "type": "image",
+                "key": "Pop-up-box"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Pop-Up-box.png",
+                "type": "image",
+                "key": "Pop-Up-box"
+            },
+            {
+                "url": "assets/images/new_popup/Pop-up-box-with-out-glow.png",
+                "type": "image",
+                "key": "Pop-up-box-with-out-glow"
+            },
+            {
+                "url": "src/scripts/PositionManager.js",
+                "type": "script",
+                "key": "PositionManager"
+            },
+            {
+                "url": "assets/images/player-profile/Profile-Avtar.png",
+                "type": "image",
+                "key": "Profile-Avtar"
+            },
+            {
+                "url": "assets/images/match-making/profile-name-bar.png",
+                "type": "image",
+                "key": "profile-name-bar"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r1.png",
+                "type": "image",
+                "key": "r1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r10.png",
+                "type": "image",
+                "key": "r10"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r11.png",
+                "type": "image",
+                "key": "r11"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r2.png",
+                "type": "image",
+                "key": "r2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r3.png",
+                "type": "image",
+                "key": "r3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r4.png",
+                "type": "image",
+                "key": "r4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r5.png",
+                "type": "image",
+                "key": "r5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r6.png",
+                "type": "image",
+                "key": "r6"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r7.png",
+                "type": "image",
+                "key": "r7"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r8.png",
+                "type": "image",
+                "key": "r8"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/red/r9.png",
+                "type": "image",
+                "key": "r9"
+            },
+            {
+                "url": "assets/images/gameplay/red.png",
+                "type": "image",
+                "key": "red"
+            },
+            {
+                "url": "assets/images/result-screen/red_exit.png",
+                "type": "image",
+                "key": "red_exit"
+            },
+            {
+                "url": "assets/images/player-profile/red-life.png",
+                "type": "image",
+                "key": "red-life"
+            },
+            {
+                "url": "assets/images/gameplay/red-particle.png",
+                "type": "image",
+                "key": "red-particle"
+            },
+            {
+                "url": "assets/images/player-profile/red-player-profile.png",
+                "type": "image",
+                "key": "red-player-profile"
+            },
+            {
+                "url": "assets/images/gameplay/red-without-ring.png",
+                "type": "image",
+                "key": "red-without-ring"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Red/red1.png",
+                "type": "image",
+                "key": "red1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Red/red2.png",
+                "type": "image",
+                "key": "red2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Red/red3.png",
+                "type": "image",
+                "key": "red3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Red/red4.png",
+                "type": "image",
+                "key": "red4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Red/red5.png",
+                "type": "image",
+                "key": "red5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Red/red6.png",
+                "type": "image",
+                "key": "red6"
+            },
+            {
+                "url": "src/prefabs/ResultPrefab.js",
+                "type": "script",
+                "key": "ResultPrefab"
+            },
+            {
+                "url": "src/components/RingAnimation.js",
+                "type": "script",
+                "key": "RingAnimation"
+            },
+            {
+                "url": "assets/images/match-making/room_code_bar.png",
+                "type": "image",
+                "key": "room_code_bar"
+            },
+            {
+                "url": "assets/images/match-making/round_board.png",
+                "type": "image",
+                "key": "round_board"
+            },
+            {
+                "url": "assets/images/match-making/rupee-coin.png",
+                "type": "image",
+                "key": "rupee-coin"
+            },
+            {
+                "url": "src/components/SafeHousePointer.js",
+                "type": "script",
+                "key": "SafeHousePointer"
+            },
+            {
+                "url": "assets/images/match-making/search-player-bar.png",
+                "type": "image",
+                "key": "search-player-bar"
+            },
+            {
+                "url": "assets/images/match-making/search-player-bar-text.png",
+                "type": "image",
+                "key": "search-player-bar-text"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Share_btn.png",
+                "type": "image",
+                "key": "Share_btn"
+            },
+            {
+                "url": "src/scripts/SocketManager.js",
+                "type": "script",
+                "key": "SocketManager"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/sound_on.png",
+                "type": "image",
+                "key": "sound_on"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Sound-Button.png",
+                "type": "image",
+                "key": "Sound-Button"
+            },
+            {
+                "url": "assets/images/new_popup/Sound-button-01.png",
+                "type": "image",
+                "key": "Sound-button-01"
+            },
+            {
+                "url": "assets/images/new_popup/Sound-off.png",
+                "type": "image",
+                "key": "Sound-off"
+            },
+            {
+                "url": "src/scripts/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": "assets/images/gameplay/star.png",
+                "type": "image",
+                "key": "star"
+            },
+            {
+                "url": "assets/images/gameplay/timer_mask_bg.png",
+                "type": "image",
+                "key": "timer_mask_bg"
+            },
+            {
+                "url": [
+                    "assets/sounds/game-sounds/timer-beep-sound.mp3"
+                ],
+                "type": "audio",
+                "key": "timer-beep-sound"
+            },
+            {
+                "url": "assets/images/gameplay/token_ring.png",
+                "type": "image",
+                "key": "token_ring"
+            },
+            {
+                "url": "assets/images/gameplay/tokenBorder.png",
+                "type": "image",
+                "key": "tokenBorder"
+            },
+            {
+                "url": "src/components/TokenHomes.js",
+                "type": "script",
+                "key": "TokenHomes"
+            },
+            {
+                "url": "assets/images/gameplay/trophy.png",
+                "type": "image",
+                "key": "trophy"
+            },
+            {
+                "url": "assets/images/gameplay/turn_highlighter_blue.png",
+                "type": "image",
+                "key": "turn_highlighter_blue"
+            },
+            {
+                "url": "assets/images/gameplay/turn_highlighter_green.png",
+                "type": "image",
+                "key": "turn_highlighter_green"
+            },
+            {
+                "url": "assets/images/gameplay/turn_highlighter_red.png",
+                "type": "image",
+                "key": "turn_highlighter_red"
+            },
+            {
+                "url": "assets/images/gameplay/turn_highlighter_yellow.png",
+                "type": "image",
+                "key": "turn_highlighter_yellow"
+            },
+            {
+                "url": "assets/images/gameplay/turn-highlighter.png",
+                "type": "image",
+                "key": "turn-highlighter"
+            },
+            {
+                "url": "src/scripts/TweenManager.js",
+                "type": "script",
+                "key": "TweenManager"
+            },
+            {
+                "url": "assets/images/gameplay/two-player-bar.png",
+                "type": "image",
+                "key": "two-player-bar"
+            },
+            {
+                "url": "src/prefabs/TwoPlayerProfile.js",
+                "type": "script",
+                "key": "TwoPlayerProfile"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/Unselected-player-bar.png",
+                "type": "image",
+                "key": "Unselected-player-bar"
+            },
+            {
+                "url": "src/components/UserHandler.js",
+                "type": "script",
+                "key": "UserHandler"
+            },
+            {
+                "url": "assets/images/match-making/vs_base.png",
+                "type": "image",
+                "key": "vs_base"
+            },
+            {
+                "url": "assets/images/match-making/vs_Shine.png",
+                "type": "image",
+                "key": "vs_Shine"
+            },
+            {
+                "url": "assets/images/gameplay/wifi-icon.png",
+                "type": "image",
+                "key": "wifi-icon"
+            },
+            {
+                "url": "assets/images/new-ResultScreen/XP.png",
+                "type": "image",
+                "key": "XP"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y1.png",
+                "type": "image",
+                "key": "y1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y10.png",
+                "type": "image",
+                "key": "y10"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y11.png",
+                "type": "image",
+                "key": "y11"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y2.png",
+                "type": "image",
+                "key": "y2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y3.png",
+                "type": "image",
+                "key": "y3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y4.png",
+                "type": "image",
+                "key": "y4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y5.png",
+                "type": "image",
+                "key": "y5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y6.png",
+                "type": "image",
+                "key": "y6"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y7.png",
+                "type": "image",
+                "key": "y7"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y8.png",
+                "type": "image",
+                "key": "y8"
+            },
+            {
+                "url": "assets/images/gameplay/dice/sprite/yellow/y9.png",
+                "type": "image",
+                "key": "y9"
+            },
+            {
+                "url": "assets/images/gameplay/yellow.png",
+                "type": "image",
+                "key": "yellow"
+            },
+            {
+                "url": "assets/images/match-making/yellow_border.png",
+                "type": "image",
+                "key": "yellow_border"
+            },
+            {
+                "url": "assets/images/result-screen/yellow_exit.png",
+                "type": "image",
+                "key": "yellow_exit"
+            },
+            {
+                "url": "assets/images/gameplay/yellow-particle.png",
+                "type": "image",
+                "key": "yellow-particle"
+            },
+            {
+                "url": "assets/images/gameplay/yellow-without-ring.png",
+                "type": "image",
+                "key": "yellow-without-ring"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Yellow/yellow1.png",
+                "type": "image",
+                "key": "yellow1"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Yellow/yellow2.png",
+                "type": "image",
+                "key": "yellow2"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Yellow/yellow3.png",
+                "type": "image",
+                "key": "yellow3"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Yellow/yellow4.png",
+                "type": "image",
+                "key": "yellow4"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Yellow/yellow5.png",
+                "type": "image",
+                "key": "yellow5"
+            },
+            {
+                "url": "assets/images/gameplay/dice/Yellow/yellow6.png",
+                "type": "image",
+                "key": "yellow6"
+            },
+            {
+                "url": "assets/images/new_popup/Yes-button-01.png",
+                "type": "image",
+                "key": "Yes-button-01"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

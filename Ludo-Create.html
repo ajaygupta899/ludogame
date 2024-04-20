@@ -1,0 +1,293 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ludo</title>
+    <link rel="stylesheet" href="./ludo_files/bootstrap.min.css" />
+    <script src="./ludo_files/jquery.min.js"></script>
+    <script src="./ludo_files/bootstrap.min.js"></script>
+    <script src="./ludo_files/socket_472.io.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <style>
+      body {
+        background: #e7e7e7;
+        margin: 0;
+        padding: 0;
+      }
+
+      label {
+        color: #fff;
+        width: 100%;
+        margin: 2px 0;
+      }
+
+      .form-select {
+        text-align: center;
+      }
+
+      .form-grp {
+        display: inline-block;
+        text-align: center;
+      }
+
+      select {
+        text-align: center;
+      }
+
+      .form-group {
+        text-align: center;
+        margin: 0;
+      }
+
+      .form-group-token {
+        text-align: center;
+        margin: 0;
+      }
+
+      .form-group input {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        min-width: 250px;
+      }
+
+      .form-group-token input {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        min-width: 800px;
+      }
+
+      .img {
+        width: 100%;
+      }
+
+      .img img {
+        margin: auto;
+        display: block;
+      }
+
+      .input-field {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 15px;
+      }
+
+      .btn-login {
+        display: block !important;
+        margin: 15px auto;
+        min-width: 150px;
+      }
+
+      .btn-classic-table-list {
+        display: block;
+        margin: 15px auto;
+        min-width: 150px;
+      }
+
+      .btn-rush-table-list {
+        display: block;
+        margin: 15px auto;
+        min-width: 150px;
+      }
+
+      .btn-join-table {
+        display: block;
+        margin: 15px auto;
+        min-width: 150px;
+      }
+
+      .gameType-dropdown {
+        margin: 15px 0;
+        min-width: 150px;
+      }
+
+      .color-dropdown {
+        width: unset;
+        min-width: 250px;
+        display: block;
+        margin: 2px auto;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #242424">
+    <div>
+      <div class="container" id="enterform">
+        <div class="form-group">
+          <label>Game ID</label><br />
+          <input
+            type="text"
+            class="form-control"
+            id="gameId"
+            placeholder="Enter Game ID"
+            value=""
+            readonly
+          />
+        </div>
+        <br />
+        <div class="input-field">
+          <button
+            type="submit"
+            class="btn btn-default btn-login"
+            style="display: none"
+            onclick="getData()"
+          >
+            Set User Tokens
+          </button>
+        </div>
+        <div class="input-field">
+          <button
+            type="submit"
+            class="btn btn-default btn-new"
+            style="display: none"
+            onclick="joinBoardOne()"
+          >
+            Join User - 1
+          </button>
+        </div>
+        <div class="input-field">
+          <button
+            type="submit"
+            class="btn btn-default btn-new"
+            style="display: none"
+            onclick="copyUserTwoToken()"
+          >
+            Copy User - 2 Token
+          </button>
+        </div>
+      </div>
+    </div>
+    <iframe
+      src
+      id="iframex"
+      width="100%"
+      height="100%"
+      frameborder="0"
+    ></iframe>
+    <script>
+      let gamePort = 4137;
+      const sRoot = "http://localhost:8080";
+      const sRootUrl = "http://localhost/classicv2";
+
+      let userTokenOne = "";
+      let userTokenTwo = "";
+
+      window.onload = generateRandomStringAsync;
+
+      async function generateRandomStringAsync() {
+        const characters = "abcdefghijklmnopqrstuvwxyz012345678";
+        const length = 12;
+        let randomString = "";
+
+        for (let i = 0; i < length; i++) {
+          const randomIndex = Math.floor(Math.random() * characters.length);
+          randomString += characters[randomIndex];
+        }
+
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+
+        document.getElementById("gameId").value = randomString;
+      }
+
+      function getData() {
+        var settings = {
+          url: sRoot + "/api/v1/ludo/board/initGame",
+          method: "POST",
+          timeout: 0,
+          headers: {
+            "Content-Type": "application/json",
+            "api-key": "0imfnc8mVLWwsAawjYr4Rx",
+          },
+          data: JSON.stringify({
+            max_participants: 2,
+            game_id: $("#gameId").val(),
+            game_fee: 100,
+            game_time: 300000,
+            turn_timer: 20000,
+            waiting_timer: 60000,
+            game_mode: "classic",
+            participation_count: 1,
+            environment: "DEV",
+            rewards: [90],
+            aPlayer: [
+              {
+                user_id: "1234",
+                sUserName: "Guest1234",
+                image: "Guest1234",
+              },
+              {
+                user_id: "5678",
+                sUserName: "Guest5678",
+                image: "Guest5678",
+                eUserType: "ubot",
+              },
+            ],
+          }),
+        };
+
+        $.ajax(settings).done(function (response) {
+          userTokenOne = response.data.aPlayer[0].sUserToken;
+          userTokenTwo = ""; //response.data.aPlayer[1].sUserToken;
+
+          if (userTokenOne != "") {
+            $(".btn-new").css("display", "block");
+            $(".btn-new").css("display", "block");
+          }
+        });
+      }
+      function getData2() {
+        var settings = {
+          url: sRoot + "/api/v1/ludo/game",
+          method: "GET",
+          timeout: 0,
+          headers: {
+            "Content-Type": "application/json",
+            "api-key": "0imfnc8mVLWwsAawjYr4Rx",
+          },
+        };
+
+        $.ajax(settings).done(function (response) {
+          userTokenOne = response.data.aPlayer[0].sUserToken;
+          userTokenTwo = ""; //response.data.aPlayer[1].sUserToken;
+
+          if ((userTokenOne && userTokenTwo) != "") {
+            $(".btn-new").css("display", "block");
+            $(".btn-new").css("display", "block");
+          }
+        });
+      }
+
+      function joinBoardOne() {
+        const gameUrl = sRootUrl + "/?";
+        var passString = "sGameId=" + $("#gameId").val() + "&";
+        passString = passString + "sUserToken=" + userTokenOne + "&";
+        passString = passString + "sRoot=" + sRoot;
+
+        const targetFrame = document.getElementById("iframex");
+        targetFrame.setAttribute("src", gameUrl + passString);
+        const targetOrigin = "http://localhost";
+        setTimeout(() => {
+          targetFrame.contentWindow.postMessage(
+            {
+              sUserToken: userTokenOne,
+              sGameId: $("#gameId").val(),
+              sRootUrl: "http://localhost:8080",
+            },
+            targetOrigin
+          );
+        }, 2000);
+      }
+
+      function copyUserTwoToken() {
+        console.log(userTokenOne);
+        console.log("================");
+        //    console.log(userTokenTwo);
+      }
+    </script>
+  </body>
+</html>

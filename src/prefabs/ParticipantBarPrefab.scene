@@ -1,0 +1,219 @@
+{
+    "id": "c2544fe0-9b70-4490-aeef-02dcfe13d230",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2f33678d-c1f5-4325-8abd-604bff4a6d86",
+            "label": "container_2",
+            "components": [],
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "3fc21b5d-78aa-47d0-b42c-3cb826604a73",
+                    "label": "normalContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "fd3f45d1-d6bc-4b8a-8d61-3280610c3ef3",
+                            "label": "result_table_normal",
+                            "components": [],
+                            "texture": {
+                                "key": "result-table-normal"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f4b90719-b388-4636-89ff-4aaf5128bb68",
+                            "label": "crownNormal",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "crown"
+                            },
+                            "x": -360,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "visible": false
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7ca110e0-d4ca-4254-9dc9-ed173fc0fe27",
+                            "label": "sRankingNormal",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -360,
+                            "y": 10,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "fontFamily": "LeagueSpartan",
+                            "fontSize": "36px",
+                            "fontStyle": "bold",
+                            "color": "#000"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4b04d779-5446-4fad-b38f-479d8beae940",
+                            "label": "profileNormal",
+                            "components": [],
+                            "texture": {
+                                "key": "profile"
+                            },
+                            "x": -250,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3c12d288-d6e6-4352-8d67-064b6faea937",
+                            "label": "sUserNameNormal",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -200,
+                            "originY": 0.5,
+                            "fontFamily": "LeagueSpartan",
+                            "fontSize": "40px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7dac6141-8abf-4c8c-848c-e1831c58c8c9",
+                            "label": "coinsNormal",
+                            "components": [],
+                            "texture": {
+                                "key": "coins"
+                            },
+                            "x": 150,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6fab1ada-e57f-471d-86fb-623959ebab93",
+                            "label": "sWinAmountNormal",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 200,
+                            "originY": 0.5,
+                            "fontFamily": "LeagueSpartan",
+                            "fontSize": "40px",
+                            "fontStyle": "bold"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9d09d9a6-494a-4460-8b89-4a3b1d3f8d3f",
+                    "label": "winnerContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "94eb7ceb-47c1-4495-95eb-282737cf0f28",
+                            "label": "result_table_winner",
+                            "components": [],
+                            "texture": {
+                                "key": "result-table-winner"
+                            }
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ec8577f1-ced7-4f7d-b615-727211abb76b",
+                            "label": "crownWinner",
+                            "components": [],
+                            "texture": {
+                                "key": "crown"
+                            },
+                            "x": -360,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d89a2025-ad94-4984-8bb4-34ece4ef734e",
+                            "label": "sRankingWinner",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -360,
+                            "y": 10,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "fontFamily": "LeagueSpartan",
+                            "fontSize": "36px",
+                            "fontStyle": "bold",
+                            "color": "#000"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e2671603-4d30-4293-b764-e9071b14a957",
+                            "label": "profileWinner",
+                            "components": [],
+                            "texture": {
+                                "key": "profile"
+                            },
+                            "x": -250,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e94059b8-b59c-40af-a9ea-753ca9b13e45",
+                            "label": "sUserNameWinner",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": -200,
+                            "originY": 0.5,
+                            "fontFamily": "LeagueSpartan",
+                            "fontSize": "40px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9c032657-03b0-4f6f-9245-f54fabf60716",
+                            "label": "coinsWinner",
+                            "components": [],
+                            "texture": {
+                                "key": "coins"
+                            },
+                            "x": 150,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3fcffc3f-08ce-4f20-88b4-aa8b010e92a3",
+                            "label": "sWinAmountWinner",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 200,
+                            "originY": 0.5,
+                            "fontFamily": "LeagueSpartan",
+                            "fontSize": "40px",
+                            "fontStyle": "bold"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

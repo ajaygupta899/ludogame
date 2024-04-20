@@ -1,0 +1,187 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <title>Ludo</title>
+
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/Montserrat-Regular.otf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/Montserrat-Medium.otf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/Montserrat-Bold.otf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/LeagueSpartan-SemiBold.ttf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/LeagueSpartan-Light.ttf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/VerioxBold.ttf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/veriox-rg-4.ttf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/CarterOne-Regular.ttf"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/MYRIADPRO-BOLD.OTF"
+      type="font/otf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="assets/fonts/AdobeClean-Bold.otf"
+      type="font/otf"
+      crossorigin
+    />
+    <link rel="preload stylesheet" href="assets/fonts/font.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1040.0/aws-sdk.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/socket_472.io.js"></script>
+    <script src="lib/phaser.min.js"></script>
+    <script src="src/components/UserComponent.js"></script>
+    <script src="src/components/PushOnClick.js"></script>
+    <script src="src/components/PreloadText.js"></script>
+    <script src="src/scenes/Preload.js"></script>
+    <script src="src/main.js"></script>
+
+    <style>
+      body {
+        background: #000;
+        margin: 0;
+        padding: 0;
+        font-family: "LeagueSpartan";
+      }
+      canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 !important;
+      }
+      @media (min-width: 1200px) {
+        canvas {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          margin: 0 !important;
+        }
+      }
+      .largescreen canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 !important;
+      }
+
+      :root {
+        --vh: 1vh; /* We'll update this with JS */
+      }
+      #game-division {
+        max-height: calc(
+          var(--vh, 1vh) * 100
+        ); /* This is effectively 100vh but will be updated by JS */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="game-division"></div>
+    <img id="pingTester" hidden />
+    <div
+      id="bottom-marker"
+      style="
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 1px;
+        height: 1px;
+        visibility: hidden;
+      "
+    ></div>
+
+    <script>
+      //  console.log = function(){};
+      function setVHVariable() {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty("--vh", `${vh}px`);
+      }
+
+      window.addEventListener("resize", setVHVariable);
+      window.addEventListener("load", setVHVariable);
+      var visibleWidth = window.screen.width;
+      console.log(visibleWidth);
+      if (visibleWidth > 1200) {
+        var d = document.getElementById("game-division");
+        d.className += " largescreen";
+      }
+
+      function init() {
+        getMobileOperatingSystem();
+      }
+      function getMobileOperatingSystem() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        if (/windows phone/i.test(userAgent)) {
+          detectDevice = "Windows";
+          console.log("Device: Windows");
+        } else if (/android/i.test(userAgent)) {
+          detectDevice = "Android";
+          console.log("Device: Android");
+        } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          detectDevice = "IOS";
+          console.log("Device: IOS");
+        } else {
+          detectDevice = "Desktop";
+          console.log("Device: Desktop");
+        }
+      }
+      window.onload = init();
+    </script>
+  </body>
+</html>

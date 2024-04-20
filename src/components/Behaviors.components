@@ -1,0 +1,145 @@
+{
+    "components": [
+        {
+            "name": "PushOnClick",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "PreloadText",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "properties": []
+        },
+        {
+            "name": "InHouseEntryPointer",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "tokenIdentifier",
+                    "label": "tokenIdentifier",
+                    "tooltip": "tokenIdentifier",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "moveToBox",
+                    "label": "moveToBox",
+                    "tooltip": "moveToBox",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SafeHousePointer",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": [
+                {
+                    "name": "isSafeHouse",
+                    "label": "isSafeHouse",
+                    "tooltip": "isSafeHouse",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "isAtHome",
+                    "label": "isAtHome",
+                    "tooltip": "",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "shouldPlaySound",
+                    "label": "shouldPlaySound",
+                    "tooltip": "",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "UserHandler",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Container",
+            "properties": [
+                {
+                    "name": "iUserId",
+                    "label": "iUserId",
+                    "tooltip": "userID",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "TokenHomes",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "index",
+                    "label": "index",
+                    "tooltip": "index",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "isHome",
+                    "label": "isHome",
+                    "tooltip": "",
+                    "defValue": true,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "isAtSafeHouse",
+                    "label": "isAtSafeHouse",
+                    "tooltip": "",
+                    "defValue": false,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "RingAnimation",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    }
+}

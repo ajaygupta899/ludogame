@@ -1,0 +1,2940 @@
+{
+    "id": "b019eecc-903c-44ac-b8a6-2e3f69974acd",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "de2b5dde-f1b3-4025-9039-10b215eb57bb",
+            "label": "container_2",
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "68894a4f-63b2-403f-b939-3e8d0c2677fb",
+                    "label": "boardContainer",
+                    "scope": "CLASS",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "b09a108c-7d13-4147-8ef5-7a1f2dd578f4",
+                            "label": "boardBorderBackground",
+                            "texture": {
+                                "key": "board-back-border"
+                            },
+                            "scaleX": 1.04,
+                            "scaleY": 1.04,
+                            "visible": false,
+                            "alpha": 0.8,
+                            "alphaTopLeft": 0.8,
+                            "alphaTopRight": 0.8,
+                            "alphaBottomLeft": 0.8,
+                            "alphaBottomRight": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e7884030-e149-40e8-a8e6-d1182e40a7f2",
+                            "label": "board",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "board-classic-yellow"
+                            },
+                            "y": 1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7c6804b1-9532-48a8-a238-cf32db0aa943",
+                            "label": "turn_highlighter_blue",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "turn_highlighter_blue"
+                            },
+                            "x": 306,
+                            "y": 306,
+                            "alpha": 0,
+                            "alphaTopLeft": 0,
+                            "alphaTopRight": 0,
+                            "alphaBottomLeft": 0,
+                            "alphaBottomRight": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9e3b0926-c8f6-4cdc-b768-5f06beae7bac",
+                            "label": "turn_highlighter_green",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "turn_highlighter_yellow"
+                            },
+                            "x": 306,
+                            "y": -306,
+                            "alpha": 0,
+                            "alphaTopLeft": 0,
+                            "alphaTopRight": 0,
+                            "alphaBottomLeft": 0,
+                            "alphaBottomRight": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "13afa82a-ccc7-41e4-baa9-cf674812cc82",
+                            "label": "turn_highlighter_red",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "turn_highlighter_red"
+                            },
+                            "x": -306,
+                            "y": 306,
+                            "alpha": 0,
+                            "alphaTopLeft": 0,
+                            "alphaTopRight": 0,
+                            "alphaBottomLeft": 0,
+                            "alphaBottomRight": 0
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7912a0ea-55ef-40ce-baf9-d4e6db6a3190",
+                            "label": "turn_highlighter_yellow",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "turn_highlighter_green"
+                            },
+                            "x": -306,
+                            "y": -306,
+                            "alpha": 0,
+                            "alphaTopLeft": 0,
+                            "alphaTopRight": 0,
+                            "alphaBottomLeft": 0,
+                            "alphaBottomRight": 0
+                        },
+                        {
+                            "type": "Container",
+                            "id": "c13e8bac-6a0f-4088-b563-20b61ed253e6",
+                            "label": "container_player_yellow_score",
+                            "scope": "CLASS",
+                            "x": -307,
+                            "y": -305,
+                            "list": [
+                                {
+                                    "type": "Text",
+                                    "id": "ab563062-ed77-414e-9681-5f7056764afb",
+                                    "label": "player_yellow_score",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "text": "Score\n0",
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "36px",
+                                    "fontStyle": "bold"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "484da3e8-694e-4d50-be61-a5d80965ba09",
+                                    "label": "player_yellow_score_inc",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "60px",
+                                    "fontStyle": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "5be1d993-d4ae-438c-8672-3764a9fcef63",
+                            "label": "container_player_green_score",
+                            "scope": "CLASS",
+                            "x": 306,
+                            "y": -305,
+                            "list": [
+                                {
+                                    "type": "Text",
+                                    "id": "45e78e7a-e66e-4bcd-92ee-2b09d88bc068",
+                                    "label": "player_green_score",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "text": "Score\n0",
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "36px",
+                                    "fontStyle": "bold"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "87e82011-d304-4315-84a1-f652924f2ee9",
+                                    "label": "player_green_score_inc",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "60px",
+                                    "fontStyle": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "cdb713fa-a314-42ee-abde-64a8638f5118",
+                            "label": "container_player_blue_score",
+                            "scope": "CLASS",
+                            "x": 307,
+                            "y": 308,
+                            "list": [
+                                {
+                                    "type": "Text",
+                                    "id": "2905c44a-f68f-49d9-9ef6-11775847221b",
+                                    "label": "player_blue_score",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "text": "Score\n0",
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "36px",
+                                    "fontStyle": "bold"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "dca477ac-8159-4a44-b6d3-ebae671d129c",
+                                    "label": "player_blue_score_inc",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "60px",
+                                    "fontStyle": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "a09c678f-c907-484a-90a7-5d1b14616264",
+                            "label": "container_player_red_score",
+                            "scope": "CLASS",
+                            "x": -308,
+                            "y": 309,
+                            "list": [
+                                {
+                                    "type": "Text",
+                                    "id": "585d69d7-4f2a-485b-b449-b8838e43d962",
+                                    "label": "player_red_score",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "text": "Score\n0",
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "36px",
+                                    "fontStyle": "bold"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "152283a3-ab36-4ae4-ad11-24a0159c3e1e",
+                                    "label": "player_red_score_inc",
+                                    "scope": "CLASS",
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "60px",
+                                    "fontStyle": "bold"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "e5249829-18f2-4a25-bb6f-a0f9a503ae09",
+                    "label": "container_board_star",
+                    "scope": "CLASS",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "322e39d6-1245-4ee4-88dd-a07d7b333db2",
+                            "label": "star1",
+                            "texture": {
+                                "key": "star"
+                            },
+                            "x": -341,
+                            "y": 68
+                        },
+                        {
+                            "type": "Image",
+                            "id": "66743ae6-5b45-4180-af81-ba935c9e657e",
+                            "label": "star2",
+                            "texture": {
+                                "key": "star"
+                            },
+                            "x": -68,
+                            "y": -340
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e23fa6b8-fc77-4424-97d5-4caa07284062",
+                            "label": "star3",
+                            "texture": {
+                                "key": "star"
+                            },
+                            "x": 340,
+                            "y": -68
+                        },
+                        {
+                            "type": "Image",
+                            "id": "83e3d3d6-89f9-429a-81e9-a88db26d48af",
+                            "label": "star4",
+                            "texture": {
+                                "key": "star"
+                            },
+                            "x": 67,
+                            "y": 341
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a4ca8dbf-ee85-4851-a56e-dce92c664c1b",
+                    "label": "container_mapping_board",
+                    "scope": "CLASS",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "16fab01c-18a2-4c38-af65-8f3a5f9b482f",
+                            "label": "one",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "SafeHousePointer.shouldPlaySound": false,
+                            "x": -68,
+                            "y": 409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "702f01dd-ef4a-4a47-acbc-6318e5679d77",
+                            "label": "two",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": 341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "1e16d94d-9b87-4aee-ae79-1f1676e67ed2",
+                            "label": "three",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": 272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e76bab92-0bb9-47b9-9f36-5938a20c2ca5",
+                            "label": "four",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": 204,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c5ce59ff-8696-48e4-8c4b-99cc40f188f4",
+                            "label": "five",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": 136,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "393bf0d9-4ae1-4a7e-8f1a-2316a9016151",
+                            "label": "six",
+                            "useGameObjectName": true,
+                            "x": -135,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c55e6ff4-ff4b-4929-8974-27069efeeb38",
+                            "label": "seven",
+                            "useGameObjectName": true,
+                            "x": -204,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "92dc5607-7020-4214-a3df-1cdcd92a30eb",
+                            "label": "eight",
+                            "useGameObjectName": true,
+                            "x": -272,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "52b6432e-44cf-469a-976c-3fb4905273fb",
+                            "label": "nine",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "x": -341,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "e0b96100-ce56-4063-b874-d5a1656376c4",
+                            "label": "ten",
+                            "useGameObjectName": true,
+                            "x": -408,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b86d1155-9155-4015-a298-be2da2760cb5",
+                            "label": "eleven",
+                            "useGameObjectName": true,
+                            "x": -478,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "7f0330a3-735f-4fde-b4f1-c407a933be38",
+                            "label": "twelve",
+                            "useGameObjectName": true,
+                            "x": -478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2a4052f6-2c39-460f-8aeb-35b82376356a",
+                            "label": "thirteen",
+                            "useGameObjectName": true,
+                            "components": [
+                                "InHouseEntryPointer"
+                            ],
+                            "InHouseEntryPointer.tokenIdentifier": "yellow",
+                            "InHouseEntryPointer.moveToBox": "58",
+                            "x": -478,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2891cdf5-ceb7-4e40-8e71-87288301b43c",
+                            "label": "fourteen",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "SafeHousePointer.shouldPlaySound": false,
+                            "x": -409,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "0407bb86-45f8-41ac-b128-f310962eb3ef",
+                            "label": "fifteen",
+                            "useGameObjectName": true,
+                            "x": -341,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "cf437980-035f-43d2-93b2-9427db68217a",
+                            "label": "sixteen",
+                            "useGameObjectName": true,
+                            "x": -272,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "363cf25d-da83-4c2d-a8bb-0f43349fda84",
+                            "label": "seventeen",
+                            "useGameObjectName": true,
+                            "x": -204,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "be072f21-7fcb-4ae0-8112-9124f2ef6716",
+                            "label": "eighteen",
+                            "useGameObjectName": true,
+                            "x": -135,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "59f91028-2616-48e4-8f34-66c25886e39b",
+                            "label": "nineteen",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": -136,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2c2288b6-921a-4642-ab60-ba4174438c89",
+                            "label": "twenty",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": -204,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "74d22689-e4c6-4742-92df-9eb6b3122e58",
+                            "label": "twentyOne",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": -272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "0562ae21-5563-458f-b408-fb79d12cea43",
+                            "label": "twentyTwo",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "x": -68,
+                            "y": -341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "6c0a6f71-e934-4e89-8f4c-ecfed8ec29b0",
+                            "label": "twentyThree",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": -409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "5fcd331a-1d7c-4114-85b6-859e3f8aebaf",
+                            "label": "twentyFour",
+                            "useGameObjectName": true,
+                            "x": -68,
+                            "y": -478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f19c3a2c-1087-4d18-80b7-cbc854dd76ae",
+                            "label": "twentyFive",
+                            "useGameObjectName": true,
+                            "y": -478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "039f125d-7b92-4207-a720-63506600a840",
+                            "label": "twentySix",
+                            "useGameObjectName": true,
+                            "components": [
+                                "InHouseEntryPointer"
+                            ],
+                            "InHouseEntryPointer.tokenIdentifier": "green",
+                            "InHouseEntryPointer.moveToBox": "64",
+                            "x": 68,
+                            "y": -478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "49469c16-81b0-4fb4-81b5-2e8ef0482c50",
+                            "label": "twentySeven",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "SafeHousePointer.shouldPlaySound": false,
+                            "x": 68,
+                            "y": -409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "09cb0a23-acb3-47d2-b5a5-ce55983e0a68",
+                            "label": "twentyEight",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": -341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "9eed35cb-782b-445f-b77e-e1a03b7fb6c8",
+                            "label": "twentyNine",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": -272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "eb299e55-02dd-4bcb-b1f4-c506e89ede9a",
+                            "label": "thirty",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": -204,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2dc28c28-bdf1-467f-84cb-f1f0e26176dc",
+                            "label": "thirtyOne",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": -135,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "57606bd0-47a2-4e7f-b3ff-b562273cdd5a",
+                            "label": "thirtyTwo",
+                            "useGameObjectName": true,
+                            "x": 135,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "77d709b1-dc0f-45df-a010-584ff597d48f",
+                            "label": "thirtyThree",
+                            "useGameObjectName": true,
+                            "x": 203,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "267aa156-84f2-4bdb-a84c-5d6fd6f0abb6",
+                            "label": "thirtyFour",
+                            "useGameObjectName": true,
+                            "x": 272,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a0e35c0c-e46c-4bca-8cb0-18945355c27a",
+                            "label": "thirtyFive",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "x": 341,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "284c2d1c-d263-444d-ac98-bd67800caebe",
+                            "label": "thirtySix",
+                            "useGameObjectName": true,
+                            "x": 409,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c24eb78a-107b-4f4c-b9cc-b203b72daf5c",
+                            "label": "thirtySeven",
+                            "useGameObjectName": true,
+                            "x": 478,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2c752d73-aa1f-49fd-ae12-5587ce5cdd4f",
+                            "label": "thirtyEight",
+                            "useGameObjectName": true,
+                            "x": 478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "00541d2f-a225-4c4b-b276-f711a5a7fb7b",
+                            "label": "thirtyNine",
+                            "useGameObjectName": true,
+                            "components": [
+                                "InHouseEntryPointer"
+                            ],
+                            "InHouseEntryPointer.tokenIdentifier": "blue",
+                            "InHouseEntryPointer.moveToBox": "70",
+                            "x": 478,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2f905a16-0b51-4e8c-a332-a1c3da790f96",
+                            "label": "fourty",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "SafeHousePointer.shouldPlaySound": false,
+                            "x": 409,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8daf6b22-042b-4579-a030-95f6f400e5bc",
+                            "label": "fourtyOne",
+                            "useGameObjectName": true,
+                            "x": 341,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "f7f791b7-50d9-4fcd-97e9-57d03f6cfc25",
+                            "label": "fourtyTwo",
+                            "useGameObjectName": true,
+                            "x": 272,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "bbe5eca5-ec58-4b48-b0c4-9bf52f1e9aba",
+                            "label": "fourtyThree",
+                            "useGameObjectName": true,
+                            "x": 203,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "d9bbdb6c-cf0f-4ee4-b5ee-bd294fe460a5",
+                            "label": "fourtyFour",
+                            "useGameObjectName": true,
+                            "x": 135,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "d2e77132-32f3-4242-b3ac-0d2529063c7f",
+                            "label": "fourtyFive",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": 136,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "ce46418d-0c66-4fbf-8909-fa6820b7fda2",
+                            "label": "fourtySix",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": 204,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "bae60f4f-f9c3-4fdf-84ef-b092e7e68632",
+                            "label": "fourtySeven",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": 272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "89604601-050d-4f0c-9f01-0f3c9ae67b77",
+                            "label": "fourtyEight",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isSafeHouse": true,
+                            "x": 68,
+                            "y": 341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "686109df-9e2e-434c-b3e1-37d01a9a2b6e",
+                            "label": "fourtyNine",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": 409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "c0a82b39-bde4-412d-8d7d-15f6aa351a18",
+                            "label": "fifty",
+                            "useGameObjectName": true,
+                            "x": 68,
+                            "y": 478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "99b362ed-8774-4cc7-9c7e-0caf6e2e9257",
+                            "label": "fiftyOne",
+                            "useGameObjectName": true,
+                            "y": 478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "61e1b6ac-5d53-4e8b-9b09-1364abd2db51",
+                            "label": "fiftyTwo",
+                            "useGameObjectName": true,
+                            "components": [
+                                "InHouseEntryPointer"
+                            ],
+                            "InHouseEntryPointer.tokenIdentifier": "red",
+                            "InHouseEntryPointer.moveToBox": "52",
+                            "x": -68,
+                            "y": 478,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "9739bcaa-8034-4295-a9e8-512c40d34647",
+                            "label": "fiftyThree",
+                            "useGameObjectName": true,
+                            "y": 409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a6029765-f7b7-48ef-a4da-94bd920875fb",
+                            "label": "fiftyFour",
+                            "useGameObjectName": true,
+                            "y": 341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "0cf5ee39-d749-4aab-929b-b63b70e900c4",
+                            "label": "fiftyFive",
+                            "useGameObjectName": true,
+                            "y": 272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b1cd46f0-89b9-4b73-87f3-6d3025cc416f",
+                            "label": "fiftySix",
+                            "useGameObjectName": true,
+                            "y": 204,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "d1161950-38b4-478b-89f5-a7742fdd89ba",
+                            "label": "fiftySeven",
+                            "useGameObjectName": true,
+                            "y": 136,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "1e2d66ee-59f0-409a-9009-f6b28474c13f",
+                            "label": "fiftyEight",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isAtHome": true,
+                            "y": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b80162d7-84a7-46f7-93a3-fd4e909a5c2a",
+                            "label": "fiftyNine",
+                            "useGameObjectName": true,
+                            "x": -409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "33b2ca70-4690-4e77-a928-28078c9b8e00",
+                            "label": "sixty",
+                            "useGameObjectName": true,
+                            "x": -341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "1a8b92b8-ffb6-45c9-bdf2-e2a9c8d3670f",
+                            "label": "sixtyOne",
+                            "useGameObjectName": true,
+                            "x": -272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "2285c5db-306e-4fa2-b830-6ccdc574794d",
+                            "label": "sixtyTwo",
+                            "useGameObjectName": true,
+                            "x": -204,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a5a7a13a-6e08-45d0-b430-7a73c4feaf0e",
+                            "label": "sixtyThree",
+                            "useGameObjectName": true,
+                            "x": -135,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "fd0d47d7-384e-4797-90c5-a90effbfb81e",
+                            "label": "sixtyFour",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isAtHome": true,
+                            "x": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a441a7be-be52-4bdf-bc7b-3a508888a8cd",
+                            "label": "sixtyFive",
+                            "useGameObjectName": true,
+                            "y": -409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "127dc0d0-fe2e-43c4-8c00-14f8a27a3e37",
+                            "label": "sixtySix",
+                            "useGameObjectName": true,
+                            "y": -341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "64c7cc49-4b77-42f6-9e7c-2e4772f4f201",
+                            "label": "sixtySeven",
+                            "useGameObjectName": true,
+                            "y": -272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "8f500332-4631-48ab-a91e-9fd7a067ed25",
+                            "label": "sixtyEight",
+                            "useGameObjectName": true,
+                            "y": -204,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "b8ccb418-8a3d-497e-97d8-abd76abed15d",
+                            "label": "sixtyNine",
+                            "useGameObjectName": true,
+                            "y": -135,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "0fb960b5-f20c-4402-9ec2-dbe6b8c95495",
+                            "label": "seventy",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isAtHome": true,
+                            "y": -68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "07392d3a-df3e-4caf-9717-0cede7b8447a",
+                            "label": "seventyOne",
+                            "useGameObjectName": true,
+                            "x": 409,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "90eec1d0-8bdf-4200-8b1a-707b50072720",
+                            "label": "seventyTwo",
+                            "useGameObjectName": true,
+                            "x": 341,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "6a72260b-f632-4500-a944-2bfc17d54b06",
+                            "label": "seventyThree",
+                            "useGameObjectName": true,
+                            "x": 272,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "a2264615-11fb-408f-88c6-59018a6d2667",
+                            "label": "seventyFour",
+                            "useGameObjectName": true,
+                            "x": 203,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "1181793a-accf-4006-a790-2f1a1093e190",
+                            "label": "seventyFive",
+                            "useGameObjectName": true,
+                            "x": 135,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "991d6824-2c9c-426f-b4bb-a7effa1f39d5",
+                            "label": "seventySix",
+                            "useGameObjectName": true,
+                            "components": [
+                                "SafeHousePointer"
+                            ],
+                            "SafeHousePointer.isAtHome": true,
+                            "x": 68,
+                            "fillColor": "#c2aff0",
+                            "strokeColor": "#000000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 60,
+                            "height": 60
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "6db637d7-ada3-46c7-b5c8-f3ccf6fd8495",
+                            "label": "home_red_0",
+                            "useGameObjectName": true,
+                            "x": -375,
+                            "y": 240,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "e01179c1-cbc7-4f73-882d-20a91cfb63ea",
+                            "label": "home_red_1",
+                            "useGameObjectName": true,
+                            "x": -375,
+                            "y": 375,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "2170e25e-fd94-48b2-888c-5aafc11c675a",
+                            "label": "home_red_2",
+                            "useGameObjectName": true,
+                            "x": -238,
+                            "y": 240,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "c7bf81b9-e52a-4e7a-a560-61bed044edda",
+                            "label": "home_red_3",
+                            "useGameObjectName": true,
+                            "x": -238,
+                            "y": 375,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "a7a76356-5f83-4e00-bbab-a44a51e5d0f1",
+                            "label": "home_green_0",
+                            "useGameObjectName": true,
+                            "x": 239,
+                            "y": -373,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "5f9e1909-55fc-4eef-ad68-d2cada32551c",
+                            "label": "home_green_1",
+                            "useGameObjectName": true,
+                            "x": 239,
+                            "y": -237,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "d45359ff-6ee7-47c7-9e17-08d36167468a",
+                            "label": "home_green_2",
+                            "useGameObjectName": true,
+                            "x": 376,
+                            "y": -373,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "21626b06-19c5-4fce-934b-7ceabd923b34",
+                            "label": "home_green_3",
+                            "useGameObjectName": true,
+                            "x": 376,
+                            "y": -237,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "0786e8a9-10fa-4072-8534-f3a207a8825a",
+                            "label": "home_yellow_0",
+                            "useGameObjectName": true,
+                            "x": -375,
+                            "y": -373,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "0a68ed28-79bd-4abc-b819-e48e531a4786",
+                            "label": "home_yellow_1",
+                            "useGameObjectName": true,
+                            "x": -376,
+                            "y": -237,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "60f6f963-45c9-4743-8579-616011b5b643",
+                            "label": "home_yellow_2",
+                            "useGameObjectName": true,
+                            "x": -239,
+                            "y": -373,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "bed4dd22-aa24-4396-867f-109bf54fdb4f",
+                            "label": "home_yellow_3",
+                            "useGameObjectName": true,
+                            "x": -239,
+                            "y": -237,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "493bdb3c-ca55-4455-8de6-91a2e2e47ed7",
+                            "label": "home_blue_0",
+                            "useGameObjectName": true,
+                            "x": 239,
+                            "y": 239,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "ee997242-3fef-4be8-a33a-90376ebbd77e",
+                            "label": "home_blue_1",
+                            "useGameObjectName": true,
+                            "x": 239,
+                            "y": 375,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "075ecd13-6220-4ef1-a437-6bb609c1cb1c",
+                            "label": "home_blue_2",
+                            "useGameObjectName": true,
+                            "x": 375,
+                            "y": 239,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        },
+                        {
+                            "type": "Ellipse",
+                            "id": "a7904cea-ef62-4776-9dbd-bb9192d079aa",
+                            "label": "home_blue_3",
+                            "useGameObjectName": true,
+                            "x": 375,
+                            "y": 375,
+                            "fillColor": "#000",
+                            "strokeColor": "#000",
+                            "strokeAlpha": 3,
+                            "lineWidth": 3,
+                            "isStroked": true,
+                            "width": 71,
+                            "height": 71
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "3a627650-8ea5-49fc-94a5-8fe9ff5e365e",
+                    "label": "container_particles",
+                    "scope": "CLASS"
+                },
+                {
+                    "type": "Container",
+                    "id": "3141715e-6177-4363-98ca-49df46751e70",
+                    "label": "container_rings",
+                    "scope": "CLASS",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5629a85e-ef57-469a-a518-edf634e02e66",
+                            "label": "ring_0",
+                            "scope": "CLASS",
+                            "components": [
+                                "RingAnimation"
+                            ],
+                            "texture": {
+                                "key": "movable-ring"
+                            },
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2dbc0e30-e76c-4232-b725-208d1152c262",
+                            "label": "ring_1",
+                            "scope": "CLASS",
+                            "components": [
+                                "RingAnimation"
+                            ],
+                            "texture": {
+                                "key": "movable-ring"
+                            },
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "a6b8fb6b-3f14-41df-8d46-e8b61b5f5ac1",
+                            "label": "ring_2",
+                            "scope": "CLASS",
+                            "components": [
+                                "RingAnimation"
+                            ],
+                            "texture": {
+                                "key": "movable-ring"
+                            },
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0aa17df6-dc0b-4b38-8adf-3b16bcc36314",
+                            "label": "ring_3",
+                            "scope": "CLASS",
+                            "components": [
+                                "RingAnimation"
+                            ],
+                            "texture": {
+                                "key": "movable-ring"
+                            },
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a67cde6d-744a-401a-9474-8f8b1c82e55e",
+                    "label": "container_classic_rings",
+                    "scope": "CLASS",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "ed2f4037-d030-4def-93a0-d6dc627e60a1",
+                            "label": "classic_red_ring_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 76,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -375,
+                            "y": 240,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "8304d7a4-d7c3-40bb-a050-499838563cdb",
+                            "label": "classic_red_ring_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 77,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -375,
+                            "y": 375,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "d649347c-1d78-48cf-9a30-048a92a1308f",
+                            "label": "classic_red_ring_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 78,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -238,
+                            "y": 240,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1852b975-2385-43d9-afab-678c409217ae",
+                            "label": "classic_red_ring_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 79,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -238,
+                            "y": 376,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3f9a563d-0458-44ad-b58b-3162572a4629",
+                            "label": "classic_yellow_ring_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 84,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -375,
+                            "y": -374,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "7bbcf571-32ce-4db6-9e02-725d42cc1308",
+                            "label": "classic_yellow_ring_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 85,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -376,
+                            "y": -237,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "818c11de-26d4-4149-822c-f9865814836d",
+                            "label": "classic_yellow_ring_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 86,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -239,
+                            "y": -373,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "76d25fcb-9786-4807-a1d2-4f7568d51124",
+                            "label": "classic_yellow_ring_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 87,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": -239,
+                            "y": -237,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "355ecba8-b518-49bb-b3d3-956a05c72a71",
+                            "label": "classic_green_ring_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 80,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 239,
+                            "y": -373,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1eee4db4-05e2-428c-81b7-20a471137a1d",
+                            "label": "classic_green_ring_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 81,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 239,
+                            "y": -237,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "63d956e4-6692-48b4-a629-69b1440ee903",
+                            "label": "classic_green_ring_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 82,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 376,
+                            "y": -373,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "3e40b9ce-63ed-462d-becd-fd681307e4fc",
+                            "label": "classic_green_ring_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 83,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 376,
+                            "y": -237,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "1ab17820-6f2d-48b5-84b9-d0dcaa395adc",
+                            "label": "classic_blue_ring_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 88,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 239,
+                            "y": 239,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "75e866e2-a242-4860-b3b3-5df567fd410f",
+                            "label": "classic_blue_ring_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 89,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 239,
+                            "y": 375,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "629e4e21-130e-4024-a9f0-871dffb84b18",
+                            "label": "classic_blue_ring_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 90,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 375,
+                            "y": 239,
+                            "originY": 0.55,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a8cb8c24-8e66-4386-ab87-4330fef0a3f7",
+                            "label": "classic_blue_ring_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 91,
+                            "texture": {
+                                "key": "token_ring"
+                            },
+                            "x": 376,
+                            "y": 375,
+                            "originY": 0.55,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "419f108a-b71e-4698-b90a-fa00209f0c8d",
+                    "label": "container_classic",
+                    "scope": "CLASS",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Sprite",
+                            "id": "35b70e41-3fbb-4cec-a73b-af88fb0b59c7",
+                            "label": "classic_red_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 76,
+                            "texture": {
+                                "key": "red"
+                            },
+                            "x": -375,
+                            "y": 240,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "2cc8e032-f9a2-4788-9329-14d7ab2c4059",
+                            "label": "classic_red_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 77,
+                            "texture": {
+                                "key": "red"
+                            },
+                            "x": -375,
+                            "y": 375,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "6ccbba9f-4831-4788-a77d-5d3449b8b225",
+                            "label": "classic_red_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 78,
+                            "texture": {
+                                "key": "red"
+                            },
+                            "x": -238,
+                            "y": 240,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "512eb911-300e-4fe2-961e-49769b05efce",
+                            "label": "classic_red_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 79,
+                            "texture": {
+                                "key": "red"
+                            },
+                            "x": -238,
+                            "y": 375,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "d3007e5d-5c68-446f-92d9-4307e0143a6a",
+                            "label": "classic_yellow_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 84,
+                            "texture": {
+                                "key": "yellow"
+                            },
+                            "x": -375,
+                            "y": -373,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "05c30411-10b0-47da-9961-7748331a7283",
+                            "label": "classic_yellow_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 85,
+                            "texture": {
+                                "key": "yellow"
+                            },
+                            "x": -376,
+                            "y": -237,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "415d06bd-b6a5-406f-a43a-6a69f3c556ab",
+                            "label": "classic_yellow_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 86,
+                            "texture": {
+                                "key": "yellow"
+                            },
+                            "x": -239,
+                            "y": -373,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "be9b0255-28a3-42ee-b696-68ad98c99e9b",
+                            "label": "classic_yellow_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 87,
+                            "texture": {
+                                "key": "yellow"
+                            },
+                            "x": -239,
+                            "y": -237,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "9735639b-f7fc-47ed-b8a4-560e844f11bc",
+                            "label": "classic_green_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 80,
+                            "texture": {
+                                "key": "green"
+                            },
+                            "x": 239,
+                            "y": -373,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "81a240c6-290f-44a0-9f7f-60bf4ff468d6",
+                            "label": "classic_green_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 81,
+                            "texture": {
+                                "key": "green"
+                            },
+                            "x": 239,
+                            "y": -237,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "cdc8444e-9916-468c-9e39-466ca5b868e1",
+                            "label": "classic_green_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 82,
+                            "texture": {
+                                "key": "green"
+                            },
+                            "x": 376,
+                            "y": -373,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "da6fac4d-00fc-47a6-a589-6a45441dc784",
+                            "label": "classic_green_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 83,
+                            "texture": {
+                                "key": "green"
+                            },
+                            "x": 376,
+                            "y": -237,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "5e8e3dd4-90c3-4442-b87e-5db318ff0acf",
+                            "label": "classic_blue_0",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 88,
+                            "texture": {
+                                "key": "blue"
+                            },
+                            "x": 239,
+                            "y": 239,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "e0567404-d267-4bfe-9f59-80d45b2772d2",
+                            "label": "classic_blue_1",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 89,
+                            "texture": {
+                                "key": "blue"
+                            },
+                            "x": 239,
+                            "y": 375,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "d9fa53ea-2f9d-454c-8a64-af87511fd4b5",
+                            "label": "classic_blue_2",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 90,
+                            "texture": {
+                                "key": "blue"
+                            },
+                            "x": 375,
+                            "y": 239,
+                            "originY": 0.95,
+                            "visible": false
+                        },
+                        {
+                            "type": "Sprite",
+                            "id": "a21a257c-514e-490d-b88f-939130c84e09",
+                            "label": "classic_blue_3",
+                            "useGameObjectName": true,
+                            "scope": "CLASS",
+                            "components": [
+                                "TokenProps",
+                                "TokenHomes"
+                            ],
+                            "TokenHomes.index": 91,
+                            "texture": {
+                                "key": "blue"
+                            },
+                            "x": 375,
+                            "y": 375,
+                            "originY": 0.95,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "ed1c406e-08a6-474a-b77f-ad2282b4d8d5",
+                    "label": "container_rush",
+                    "scope": "CLASS",
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Container",
+                            "id": "c9dbe98a-f8a6-4fd1-b1a3-7a5c48b2e167",
+                            "label": "container_rush_tokens",
+                            "scope": "CLASS",
+                            "x": -1,
+                            "list": [
+                                {
+                                    "type": "Container",
+                                    "id": "0819cc74-eddd-49c5-8311-c461db7dea7e",
+                                    "label": "container_rush_red",
+                                    "scope": "CLASS",
+                                    "y": 2,
+                                    "visible": false,
+                                    "list": [
+                                        {
+                                            "type": "Sprite",
+                                            "id": "0ba07417-f6f4-4bbc-827a-e9c2cdea4c28",
+                                            "label": "rush_red_0",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "texture": {
+                                                "key": "red"
+                                            },
+                                            "x": -65,
+                                            "y": 411,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "fa6ed82d-42e4-44d5-8bfe-09f4f7aadd82",
+                                            "label": "rush_red_1",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "texture": {
+                                                "key": "red"
+                                            },
+                                            "x": -65,
+                                            "y": 411,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "8d98242b-c094-4cee-b41b-0525b25f90d1",
+                                            "label": "rush_red_2",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "texture": {
+                                                "key": "red"
+                                            },
+                                            "x": -65,
+                                            "y": 411,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "02636a02-43d9-4f88-8c4f-a71129b31ae7",
+                                            "label": "rush_red_3",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "texture": {
+                                                "key": "red"
+                                            },
+                                            "x": -65,
+                                            "y": 411,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "d5acc918-0dc8-4a25-8ea6-04ae0676dcfd",
+                                    "label": "container_rush_yellow",
+                                    "scope": "CLASS",
+                                    "y": -1,
+                                    "visible": false,
+                                    "list": [
+                                        {
+                                            "type": "Sprite",
+                                            "id": "87a6eb20-2571-469c-bd1e-eed05a1dfac1",
+                                            "label": "rush_yellow_0",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 13,
+                                            "texture": {
+                                                "key": "yellow"
+                                            },
+                                            "x": -406,
+                                            "y": -65,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "710ac329-cd12-4fde-9184-8befcb8d28c3",
+                                            "label": "rush_yellow_1",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 13,
+                                            "texture": {
+                                                "key": "yellow"
+                                            },
+                                            "x": -406,
+                                            "y": -65,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "4bd22552-5cb5-4c97-840a-f8ee682ca924",
+                                            "label": "rush_yellow_2",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 13,
+                                            "texture": {
+                                                "key": "yellow"
+                                            },
+                                            "x": -406,
+                                            "y": -65,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "aa3a08a3-e597-4cdf-9b98-501882fef1e0",
+                                            "label": "rush_yellow_3",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 13,
+                                            "texture": {
+                                                "key": "yellow"
+                                            },
+                                            "x": -406,
+                                            "y": -65,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "ff9c98f1-dc1a-44a8-9ed8-cabccb7e44ca",
+                                    "label": "container_rush_green",
+                                    "scope": "CLASS",
+                                    "y": -1,
+                                    "visible": false,
+                                    "list": [
+                                        {
+                                            "type": "Sprite",
+                                            "id": "30028158-fce5-4dc9-aa4c-685bc6b1c97c",
+                                            "label": "rush_green_0",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 26,
+                                            "texture": {
+                                                "key": "green"
+                                            },
+                                            "x": 70,
+                                            "y": -406,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "78158b21-4f5d-4fd4-ae00-b68c7d7355c2",
+                                            "label": "rush_green_1",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 26,
+                                            "texture": {
+                                                "key": "green"
+                                            },
+                                            "x": 70,
+                                            "y": -406,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "3c03efe8-7a08-45aa-998c-bb7b8e79949e",
+                                            "label": "rush_green_2",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 26,
+                                            "texture": {
+                                                "key": "green"
+                                            },
+                                            "x": 70,
+                                            "y": -406,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "bc074d27-854b-4997-8a8e-eae666dadec2",
+                                            "label": "rush_green_3",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 26,
+                                            "texture": {
+                                                "key": "green"
+                                            },
+                                            "x": 70,
+                                            "y": -406,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "3932fa07-e30e-4e90-b0c2-636d9b71f542",
+                                    "label": "container_rush_blue",
+                                    "scope": "CLASS",
+                                    "y": -1,
+                                    "visible": false,
+                                    "list": [
+                                        {
+                                            "type": "Sprite",
+                                            "id": "2bc0f23c-4730-46bf-9757-59fb0067a19c",
+                                            "label": "rush_blue_0",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 39,
+                                            "texture": {
+                                                "key": "blue"
+                                            },
+                                            "x": 411,
+                                            "y": 70,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "1202333a-bb2a-49a1-837c-c86b1055b247",
+                                            "label": "rush_blue_1",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 39,
+                                            "texture": {
+                                                "key": "blue"
+                                            },
+                                            "x": 411,
+                                            "y": 70,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "866ba15e-8d30-40fe-ac22-c3e864e8df42",
+                                            "label": "rush_blue_2",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 39,
+                                            "texture": {
+                                                "key": "blue"
+                                            },
+                                            "x": 411,
+                                            "y": 70,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        },
+                                        {
+                                            "type": "Sprite",
+                                            "id": "428ed396-bb48-4db7-9114-def6acdbf4f9",
+                                            "label": "rush_blue_3",
+                                            "useGameObjectName": true,
+                                            "scope": "CLASS",
+                                            "components": [
+                                                "TokenProps",
+                                                "TokenHomes"
+                                            ],
+                                            "TokenHomes.index": 39,
+                                            "texture": {
+                                                "key": "blue"
+                                            },
+                                            "x": 411,
+                                            "y": 70,
+                                            "scaleX": 0.4,
+                                            "scaleY": 0.4
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a82aca12-f99a-4798-86ae-60834316d72a",
+                    "label": "container_crown",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "76dc1f19-5a90-40c4-9cff-7048c921e25c",
+                            "label": "ownPlayerCrown",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "crown1"
+                            },
+                            "x": -308,
+                            "y": 308,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "556bc434-dbe7-4369-bf68-d53953d08f7e",
+                            "label": "oppPlayerOneCrown",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "crown1"
+                            },
+                            "x": -308,
+                            "y": -308,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "b88591ef-583a-485e-b56d-d9446915169a",
+                            "label": "oppPlayerTwoCrown",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "crown1"
+                            },
+                            "x": 308,
+                            "y": -308,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "49cc5954-1d61-49ff-8ee3-277b06d567e7",
+                            "label": "oppPlayerThreeCrown",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "crown1"
+                            },
+                            "x": 308,
+                            "y": 308,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6,
+                            "visible": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "6a7a2452-7785-4401-9224-708312701a22",
+                    "label": "container_player_left",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "4d8cdf8e-3b96-4be2-baae-6eb468594602",
+                            "label": "red_exit",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "red_exit"
+                            },
+                            "x": 308,
+                            "y": -306,
+                            "scaleX": 1.1,
+                            "scaleY": 1.1,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5e5046f3-6832-4f1f-8245-b2ef23476aa5",
+                            "label": "yellow_exit",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "yellow_exit"
+                            },
+                            "x": -309,
+                            "y": 307,
+                            "scaleX": 1.1,
+                            "scaleY": 1.1,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "bf1efae8-4dea-4800-8cb3-dae5ab4e1553",
+                            "label": "green_exit",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "green_exit"
+                            },
+                            "x": 306,
+                            "y": 307,
+                            "scaleX": 1.1,
+                            "scaleY": 1.1,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4caabb20-bee7-4939-b6a1-bcee81cf7495",
+                            "label": "blue_exit",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "blue_exit"
+                            },
+                            "x": -308,
+                            "y": -306,
+                            "scaleX": 1.1,
+                            "scaleY": 1.1,
+                            "visible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

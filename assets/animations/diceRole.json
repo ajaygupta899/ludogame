@@ -1,0 +1,274 @@
+{
+    "anims": [
+        {
+            "key": "yellowDiceRoll",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "y1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y7",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y8",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y9",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y10",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "y11",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 31,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        },
+        {
+            "key": "redDiceRoll",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "r1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r7",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r8",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r9",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r10",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "r11",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 31,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        },
+        {
+            "key": "blueDiceRoll",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "b1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b7",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b8",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b9",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b10",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "b11",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 31,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        },
+        {
+            "key": "greenDiceRoll",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "g1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g7",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g8",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g9",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g10",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "g11",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 31,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

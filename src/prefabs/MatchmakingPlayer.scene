@@ -1,0 +1,120 @@
+{
+    "id": "f392f7d4-d5c9-49a6-8b8c-2e068c13a59a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8c847214-b7a6-4f68-bd0e-c650340c7e8d",
+            "label": "container_1",
+            "visible": false,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "eba47153-9ce1-4969-a61b-32e17c716a43",
+                    "label": "playerAvatarSprite",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "player-1-avatar"
+                    },
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Image",
+                    "id": "7a2d7bed-9b92-462f-8462-3c585a676870",
+                    "label": "time_round_box",
+                    "texture": {
+                        "key": "time-round-box"
+                    },
+                    "x": 17,
+                    "y": 283,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "2a34ea1b-9f7a-4f0d-a027-d7fe20bf86f1",
+                    "label": "rupee_coin",
+                    "texture": {
+                        "key": "rupee-coin"
+                    },
+                    "x": -83,
+                    "y": 283,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "8729ab08-6166-45cb-be9a-8aa24c6aa26b",
+                    "label": "playerEntryAmountText",
+                    "scope": "CLASS",
+                    "x": 30,
+                    "y": 283,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "fontFamily": "Montserrat-Bold",
+                    "fontSize": "28px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "7db41271-e781-443e-97e8-c662fb33e083",
+                    "label": "profile_name_bar",
+                    "texture": {
+                        "key": "profile-name-bar"
+                    },
+                    "y": 184
+                },
+                {
+                    "type": "Text",
+                    "id": "d2ae698a-4d9e-4ae1-be6f-acad7a1435da",
+                    "label": "playerTempNameText",
+                    "scope": "CLASS",
+                    "y": 185,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "???",
+                    "fontFamily": "myriadpro",
+                    "fontSize": "40px"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "8fb39b33-9572-4600-b30c-0a4e7826a33d",
+                    "label": "rectangle_1",
+                    "strokeColor": "#ffffff",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 260,
+                    "height": 260
+                },
+                {
+                    "type": "Image",
+                    "id": "42e940f1-78ca-4776-ac15-32c07d1f77a9",
+                    "label": "ownPlayerBorder",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "yellow_border"
+                    },
+                    "scaleX": 1.1,
+                    "scaleY": 1.1,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

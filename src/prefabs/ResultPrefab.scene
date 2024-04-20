@@ -1,0 +1,134 @@
+{
+    "id": "92c891c0-19f2-466d-91b5-5361efdb7d19",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d9ee50cd-5287-4714-a2a2-b8287a1ea18c",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c4f05a7c-f983-424f-b7bc-e3acd117e405",
+                    "label": "number_box",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Bar-Selected-player"
+                    },
+                    "scaleX": 1.02,
+                    "scaleY": 0.9
+                },
+                {
+                    "type": "Text",
+                    "id": "56c0b8d4-e1ae-4017-8c2e-bb65b6bef967",
+                    "label": "text_player_name",
+                    "scope": "CLASS",
+                    "x": -266,
+                    "originY": 0.5,
+                    "fontFamily": "veriox-rg-4",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#000000",
+                    "strokeThickness": 3,
+                    "shadow.stroke": true,
+                    "shadow.fill": true
+                },
+                {
+                    "type": "Text",
+                    "id": "35da4441-4690-4e9b-91e6-011c9d79cb92",
+                    "label": "text_win",
+                    "scope": "CLASS",
+                    "x": 175,
+                    "y": 5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "300",
+                    "fontFamily": "veriox-rg-4",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "06be8684-b7b1-4d8a-ab3c-15c104c2c374",
+                    "label": "crown",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Crown"
+                    },
+                    "x": -425,
+                    "scaleX": 0.13,
+                    "scaleY": 0.13
+                },
+                {
+                    "type": "Text",
+                    "id": "184e041c-63b9-4636-8fee-45c41f31a74d",
+                    "label": "winning_text",
+                    "scope": "CLASS",
+                    "x": 194,
+                    "originY": 0.5,
+                    "fontFamily": "CarterOne-Regular",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#000000",
+                    "strokeThickness": 3
+                },
+                {
+                    "type": "Image",
+                    "id": "4ebcbe65-c1ed-4280-be44-a46b0556aff2",
+                    "label": "resultAvatar",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "player-1-avatar"
+                    },
+                    "x": -314,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2
+                },
+                {
+                    "type": "Image",
+                    "id": "fae9992f-417f-49a6-9c4e-17976b324fd1",
+                    "label": "coin",
+                    "texture": {
+                        "key": "Coin"
+                    },
+                    "x": 132,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "32ffce8a-9b6e-4f12-891c-1e93fb5c02e6",
+                    "label": "txtRank",
+                    "scope": "CLASS",
+                    "x": -426,
+                    "y": 12,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontFamily": "veriox-rg-4",
+                    "fontSize": "20px",
+                    "color": "#000000"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

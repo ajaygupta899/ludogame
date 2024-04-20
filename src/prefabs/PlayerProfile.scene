@@ -1,0 +1,292 @@
+{
+    "id": "93f6288b-e03a-42f7-b879-7782e2399182",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "8490c6fd-7089-4ea5-8791-4c2e0b1616ee",
+            "label": "container_4",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9d17548e-efad-40b4-bfcc-9af3fc4ad47e",
+                    "label": "playerProfileBackground",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "red-player-profile"
+                    },
+                    "scaleX": 1.1,
+                    "scaleY": 1.1
+                },
+                {
+                    "type": "Container",
+                    "id": "0a99f031-db47-458b-afc9-a22d7f8b4a03",
+                    "label": "playerDotsContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "174b1957-af38-4c98-8eca-ffbfb542c75f",
+                            "label": "blackDotFive",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "red-life"
+                            },
+                            "x": 30,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0dbf4cc1-f797-420f-bd3b-28d16f4ea666",
+                            "label": "blackDotFour",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "red-life"
+                            },
+                            "x": 55,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "ecd9579d-02f5-4a85-92a9-97b460837f0c",
+                            "label": "blackDotThree",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "red-life"
+                            },
+                            "x": 80,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "89d3d918-a5a0-4ca8-8c43-c7161fffa67a",
+                            "label": "blackDotTwo",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "red-life"
+                            },
+                            "x": 105,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "6932c9e8-6924-4a53-86ce-2a773d8b761f",
+                            "label": "blackDotOne",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "red-life"
+                            },
+                            "x": 130,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "9caf7313-8c72-4030-b426-8a666116a797",
+                    "label": "playerLifeContainer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "03c90597-e826-4669-be8d-3a4fe6d22018",
+                            "label": "lifeFive",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "green-life"
+                            },
+                            "x": 30,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "132f2b24-b17d-44fa-8788-0fcb6ecde35a",
+                            "label": "lifeFour",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "green-life"
+                            },
+                            "x": 55,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7ca044f7-676d-46bf-904e-69516678b723",
+                            "label": "lifeThree",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "green-life"
+                            },
+                            "x": 80,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e716f1d3-4601-41f1-b6ed-56a6c1ff7514",
+                            "label": "lifeTwo",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "green-life"
+                            },
+                            "x": 105,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Image",
+                            "id": "95733272-4209-4ff3-9fc4-8d68f3148429",
+                            "label": "lifeOne",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "green-life"
+                            },
+                            "x": 130,
+                            "y": 72,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "853d3a41-c8bc-49a1-8a5f-aedd8f5c0ced",
+                    "label": "playerNameText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -56,
+                    "y": 100,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Player Name",
+                    "fontFamily": "Monteserrat-Bold",
+                    "fontSize": "32px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Image",
+                    "id": "cebe8da1-cf13-405c-ac4d-b12c6b15be95",
+                    "label": "dice_box",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Dice-box"
+                    },
+                    "x": 79,
+                    "y": -2
+                },
+                {
+                    "prefabId": "3ca0d9a5-0cfc-4d14-9b3c-4c5d049512d3",
+                    "id": "1f2d5330-20a7-4e5d-8a15-da3711490601",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY"
+                    ],
+                    "label": "dicePrefab",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 79,
+                    "y": -3,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "nestedPrefabs": []
+                },
+                {
+                    "type": "Image",
+                    "id": "3c7a5b1f-51b7-4b8b-ba65-2f79fa6aa3d5",
+                    "label": "profile_Avtar",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Profile-Avtar"
+                    },
+                    "x": -62
+                },
+                {
+                    "type": "Image",
+                    "id": "c0add3c9-0f76-44cd-b168-0be973b9140d",
+                    "label": "timer_ring",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Green-Timeline-Sibstracted"
+                    },
+                    "x": -63
+                },
+                {
+                    "type": "Image",
+                    "id": "25db8698-3db0-43eb-8fda-3d2763958159",
+                    "label": "playerAvatar",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "player-2-avatar"
+                    },
+                    "x": -63,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "7b6b63ee-ea0e-4b56-b547-0db1381bb482",
+                    "label": "earth",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Earth"
+                    },
+                    "x": -93,
+                    "y": -108,
+                    "scaleX": 0.2,
+                    "scaleY": 0.2
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

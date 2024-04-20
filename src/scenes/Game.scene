@@ -1,0 +1,1784 @@
+{
+    "id": "7649820c-8e6d-4914-aa42-90e0f33f9364",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Game",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "a5955683-5315-41f9-9d0b-a3fe56261dbc",
+            "label": "container_background",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "ea65383e-eb7f-4ba6-be71-757cec9d21d6",
+                    "label": "background",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "game-background"
+                    },
+                    "x": 540,
+                    "y": 960,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "a0d93202-9805-4332-8747-258e0d59cae7",
+                    "label": "ownTurnArrow",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Left-Arrow-"
+                    },
+                    "x": 436,
+                    "y": 1626,
+                    "visible": false
+                },
+                {
+                    "type": "Container",
+                    "id": "78611964-e62d-49c2-8ca8-57d701a1e81d",
+                    "label": "container_general",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "16bfe792-df81-4e7b-8683-6bbc50836573",
+                            "label": "prize_Pot",
+                            "components": [],
+                            "texture": {
+                                "key": "prize-pot"
+                            },
+                            "x": 540,
+                            "y": 76
+                        },
+                        {
+                            "type": "Text",
+                            "id": "0494eef8-1e31-407b-a6d3-abd654e41ee2",
+                            "label": "text_prize_pot_lable",
+                            "components": [],
+                            "x": 509,
+                            "y": 76,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Prize Pot",
+                            "align": "center",
+                            "fontFamily": "Montserrat-Bold",
+                            "fontSize": "28px"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "10000aa3-4d2b-469b-a4b8-3dae516ca148",
+                            "label": "trophy_icon",
+                            "components": [],
+                            "texture": {
+                                "key": "trophy"
+                            },
+                            "x": 407,
+                            "y": 76,
+                            "scaleX": 1.1
+                        },
+                        {
+                            "type": "Text",
+                            "id": "26eeebfc-a539-4c99-accb-4322a01e99cc",
+                            "label": "text_prize_pot",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 634,
+                            "y": 76,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "align": "center",
+                            "fontFamily": "Montserrat-Bold",
+                            "fontSize": "30px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "55bd6f3b-5a24-494a-bee5-18be75c7c553",
+                    "label": "container_board",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 540,
+                    "y": 960,
+                    "list": [
+                        {
+                            "prefabId": "b019eecc-903c-44ac-b8a6-2e3f69974acd",
+                            "id": "c886bb8d-f377-45d6-86a7-2e696e6c8897",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "gameBoard",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 0,
+                            "y": 0,
+                            "scaleX": 1.05,
+                            "scaleY": 1.05,
+                            "visible": true,
+                            "nestedPrefabs": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "d5a81408-9562-4b8c-83d7-6712143d4db1",
+                    "label": "container_two_players",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": -15,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "262aa4aa-767d-4b4a-b0d7-575ca8df748a",
+                            "label": "two_player_bar",
+                            "components": [],
+                            "texture": {
+                                "key": "two-player-bar"
+                            },
+                            "x": 540,
+                            "y": 1811
+                        },
+                        {
+                            "prefabId": "3ca0d9a5-0cfc-4d14-9b3c-4c5d049512d3",
+                            "id": "590e472a-2f3e-4432-94c3-9365b3cd360b",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "twoPlayerDice",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 1811,
+                            "scaleX": 1,
+                            "scaleY": 1,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "3951d9b8-3189-4423-84a4-ac0ddbee17c3",
+                            "label": "tokenBorder",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "tokenBorder"
+                            },
+                            "x": 995,
+                            "y": 1792,
+                            "scaleX": 1.2,
+                            "scaleY": 1.2,
+                            "visible": false
+                        },
+                        {
+                            "type": "Container",
+                            "id": "7682ec4e-8520-4183-bbbb-f89c72c10837",
+                            "label": "container_own_profile",
+                            "scope": "CLASS",
+                            "components": [],
+                            "list": [
+                                {
+                                    "prefabId": "4ee14825-e841-4f0d-83a0-370b66023fc0",
+                                    "id": "cfbdbe85-ab9d-47f7-bee2-2f910b409187",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "twoPlayerProfile",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 143,
+                                    "y": 1628,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "bafe3ab8-e670-492e-89ef-93b0abaaa04a",
+                                    "label": "two_player_own_name",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 170,
+                                    "y": 1791,
+                                    "originY": 0.5,
+                                    "text": "Dhruvil",
+                                    "fontFamily": "VerioxBold",
+                                    "fontSize": "35px"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "1f262fe3-fd16-4576-b442-a1e6fbbca963",
+                                    "label": "own_pawn_without_ring",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "yellow-without-ring"
+                                    },
+                                    "x": 87,
+                                    "y": 1790,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "871f690d-a871-48cd-a53c-e5f4e4543116",
+                                    "label": "down_arrow_Small",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "down_arrow Small"
+                                    },
+                                    "x": 545,
+                                    "y": 1602,
+                                    "scaleY": 0.8,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "ea49cd3f-a0b6-4072-a51a-009dc452c71b",
+                                    "label": "own_coin",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Coin"
+                                    },
+                                    "x": 203,
+                                    "y": 1842,
+                                    "scaleX": 0.5,
+                                    "scaleY": 0.5
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "37dcd55c-0fc3-4894-9bff-dc4b78965574",
+                                    "label": "own_coin_text",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 247,
+                                    "y": 1846,
+                                    "originY": 0.5,
+                                    "text": "2300",
+                                    "fontFamily": "VerioxBold",
+                                    "fontSize": "30px"
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "a8860108-4cf5-4533-b2a9-521b0d89180f",
+                                    "label": "container_own_life_container",
+                                    "components": [],
+                                    "x": 88,
+                                    "y": 1855,
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "cee950c9-5451-4155-afbe-1d9ec658dd30",
+                                            "label": "ownLifeFive",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": -40,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "fd010615-cde5-4def-985c-d6b276662742",
+                                            "label": "ownLifeFour",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": -20,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "efe490ab-83aa-4d41-a596-c2ae0ff33641",
+                                            "label": "ownLifeThree",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "ecc18910-5480-4269-9310-34d56be4dbc9",
+                                            "label": "ownLifeTwo",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": 20,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "163d1580-a45a-4160-bf24-9db0e993bb16",
+                                            "label": "ownLifeOne",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": 40,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "1a76ae42-bfd6-4994-a9cf-5e63915a8d76",
+                            "label": "container_opponent_profile",
+                            "scope": "CLASS",
+                            "components": [],
+                            "list": [
+                                {
+                                    "prefabId": "4ee14825-e841-4f0d-83a0-370b66023fc0",
+                                    "id": "3d71b931-4ba3-40f5-a3ec-d4070b6369fd",
+                                    "unlock": [
+                                        "x",
+                                        "y"
+                                    ],
+                                    "label": "opponent_twoPlayerProfile",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 937,
+                                    "y": 1628,
+                                    "nestedPrefabs": []
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "6e414e14-71b9-4b13-bc60-f03bfe52d325",
+                                    "label": "two_player_opponent_name",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 681,
+                                    "y": 1791,
+                                    "originY": 0.5,
+                                    "text": "Harshal",
+                                    "fontFamily": "VerioxBold",
+                                    "fontSize": "35px"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "3976ccb4-ca0c-4c99-82f2-07bc78e6dbb6",
+                                    "label": "opponent_pawn_without_ring",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "red-without-ring"
+                                    },
+                                    "x": 993,
+                                    "y": 1790,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "b7cb0599-ce42-4798-a1bb-26be219cb5b4",
+                                    "label": "opp_coin",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Coin"
+                                    },
+                                    "x": 708,
+                                    "y": 1842,
+                                    "scaleX": 0.5,
+                                    "scaleY": 0.5
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "ac3f5068-4fb2-4ef0-be5e-e54650ad1957",
+                                    "label": "opp_coin_text",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 752,
+                                    "y": 1846,
+                                    "originY": 0.5,
+                                    "text": "2300",
+                                    "fontFamily": "VerioxBold",
+                                    "fontSize": "30px"
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "3d15e6a5-733d-46aa-8e87-dd6d53b60014",
+                                    "label": "container_opponent_life_container",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 992,
+                                    "y": 1855,
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "39ba9a98-087c-4a70-91b0-363e907d00bb",
+                                            "label": "opponentLifeFive",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": -40,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "75d46bfd-a130-446f-97f5-9ce2ef89c818",
+                                            "label": "opponentLifeFour",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": -20,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "0a064c7f-bb89-4fd3-a7e1-6d8138ae491c",
+                                            "label": "opponentLifeThree",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "609d2ac3-86ee-4eb3-9b4e-22c285591e03",
+                                            "label": "opponentLifeTwo",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": 20,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "70df4ac5-1a7d-4976-bc86-d681a0aa9ca1",
+                                            "label": "opponentLifeOne",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "green-life"
+                                            },
+                                            "x": 40,
+                                            "scaleX": 0.25,
+                                            "scaleY": 0.25
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Rectangle",
+                            "id": "787f6090-d376-4d17-8e5f-0a2ae98e5634",
+                            "label": "diceRectangle",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 542,
+                            "y": 1809,
+                            "width": 200,
+                            "height": 170
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "bfda32bf-d3c8-422f-b1ee-5a6114d69a2f",
+                    "label": "container_players",
+                    "scope": "CLASS",
+                    "components": [],
+                    "list": [
+                        {
+                            "prefabId": "93f6288b-e03a-42f7-b879-7782e2399182",
+                            "id": "a7257692-3493-4d77-ba2d-ba79f2c315df",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "ownPlayer",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 205,
+                            "y": 1626,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "prefabId": "93f6288b-e03a-42f7-b879-7782e2399182",
+                            "id": "1c923cd9-be63-4fa5-afbd-903eaeb0e72a",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "oppPlayerOne",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 217,
+                            "y": 1634,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "prefabId": "93f6288b-e03a-42f7-b879-7782e2399182",
+                            "id": "a7a32088-7516-4126-9fda-d54d5c40f28f",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "oppPlayerTwo",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 221,
+                            "y": 1630,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "prefabId": "93f6288b-e03a-42f7-b879-7782e2399182",
+                            "id": "d1b21907-605c-47c8-b110-7dce62c66f40",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "oppPlayerThree",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 221,
+                            "y": 1630,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "35d6684c-4984-4963-8d17-805b98de3023",
+                    "label": "container_rush_game",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "5fcc1916-48c5-4088-834a-daedb167b05b",
+                            "label": "time_Round_Box",
+                            "components": [],
+                            "texture": {
+                                "key": "time-round-box"
+                            },
+                            "x": 894,
+                            "y": 80,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Image",
+                            "id": "66d64fcf-21d4-4345-8fb8-1a2d4c0b5b41",
+                            "label": "time_clock_icon",
+                            "components": [],
+                            "texture": {
+                                "key": "time-clock"
+                            },
+                            "x": 820,
+                            "y": 72,
+                            "scaleX": 0.7,
+                            "scaleY": 0.7
+                        },
+                        {
+                            "type": "Text",
+                            "id": "8eb3d813-6e49-41dc-a193-6e35637b67b9",
+                            "label": "text_rush_timer",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 903,
+                            "y": 82,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "fontFamily": "Montserrat-Bold",
+                            "fontSize": "30px",
+                            "fontStyle": "bold",
+                            "color": "#04ff13ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a3674f30-7e48-4803-a5f3-74973eabb971",
+                    "label": "container_button_group",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": -1,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "f47bcf69-c0c8-4c19-86b5-f295e0cc2d62",
+                            "label": "exit_icon",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "exit_icon"
+                            },
+                            "x": 280,
+                            "y": 100,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6
+                        },
+                        {
+                            "type": "Image",
+                            "id": "573ca7c9-d81d-4065-90a7-a4480cc90fd4",
+                            "label": "leave_icon",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "Leave-icon"
+                            },
+                            "x": 100,
+                            "y": 100,
+                            "scaleX": 0.6,
+                            "scaleY": 0.6
+                        },
+                        {
+                            "type": "Container",
+                            "id": "0b739af0-d4ae-4bf2-a698-5e3ef40a37db",
+                            "label": "container_sound",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 980,
+                            "y": 100,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "05ac12d7-0c90-46c1-a6d6-875cb854951a",
+                                    "label": "sound_off",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Sound-off"
+                                    },
+                                    "scaleX": 0.91,
+                                    "scaleY": 0.91,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "cd9f3559-3f4b-4d23-8ddd-01c58062cc3e",
+                                    "label": "sound_button_on",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Sound-button-01"
+                                    },
+                                    "scaleX": 0.91,
+                                    "scaleY": 0.91
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "94b1b2ff-155a-4886-95bf-8526858154a7",
+                    "label": "container_player_waiting",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "332b6203-c0aa-441a-a275-a66a7d8508ef",
+                            "label": "gradient_background",
+                            "components": [],
+                            "texture": {
+                                "key": "gradient-background"
+                            },
+                            "x": 540,
+                            "y": 960
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6cc012bc-3da8-4622-ae56-4773c087aaab",
+                            "label": "defytext_1",
+                            "components": [],
+                            "x": 540,
+                            "y": 1765,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "You'll lose the game & entry fee\nif you leave now or close the app",
+                            "align": "center",
+                            "fontFamily": "Montserrat-Medium",
+                            "fontSize": "34px"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "feb7786f-beeb-4d49-acc7-48a3be8a0a15",
+                            "label": "vs_Shine",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "vs_Shine"
+                            },
+                            "x": 540,
+                            "y": 1063,
+                            "scaleX": 1.5,
+                            "scaleY": 1.5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "d4a2612f-abaa-4740-b2fd-0ceaaec98395",
+                            "label": "vs_base",
+                            "components": [],
+                            "texture": {
+                                "key": "vs_base"
+                            },
+                            "x": 540,
+                            "y": 1063,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Text",
+                            "id": "3286987b-6b95-4752-a764-843a0875bbfe",
+                            "label": "text_2",
+                            "components": [],
+                            "x": 538,
+                            "y": 1063,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "VS",
+                            "fontFamily": "CarterOne-Regular",
+                            "fontSize": "45px",
+                            "stroke": "#000000ff",
+                            "strokeThickness": 5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "16bf4d48-8469-494a-9357-9bfeeb283df5",
+                            "label": "new_user",
+                            "components": [],
+                            "texture": {
+                                "key": "new_user"
+                            },
+                            "x": 540,
+                            "y": 1368,
+                            "scaleX": 1.43,
+                            "scaleY": 1.43
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e22d1e56-a82d-4532-9346-95c2db837629",
+                            "label": "new_user_1",
+                            "components": [],
+                            "texture": {
+                                "key": "new_user"
+                            },
+                            "x": 240,
+                            "y": 1368,
+                            "scaleX": 1.43,
+                            "scaleY": 1.43
+                        },
+                        {
+                            "type": "Image",
+                            "id": "e1647f3a-307b-4e16-aca1-9bfb48cf6ad7",
+                            "label": "new_user_2",
+                            "components": [],
+                            "texture": {
+                                "key": "new_user"
+                            },
+                            "x": 840,
+                            "y": 1368,
+                            "scaleX": 1.43,
+                            "scaleY": 1.43
+                        },
+                        {
+                            "prefabId": "f392f7d4-d5c9-49a6-8b8c-2e068c13a59a",
+                            "id": "0307b8a2-3175-4d30-996c-f135ba1db605",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "playerOnePrefab",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 683,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "prefabId": "f392f7d4-d5c9-49a6-8b8c-2e068c13a59a",
+                            "id": "d7697195-d95d-4da2-bd7f-b0f948e0f637",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "playerTwoPrefab",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 240,
+                            "y": 1368,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "prefabId": "f392f7d4-d5c9-49a6-8b8c-2e068c13a59a",
+                            "id": "c2ddcf6f-85cc-4d91-982c-e5791e7fb810",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "playerThreePrefab",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 1368,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "prefabId": "f392f7d4-d5c9-49a6-8b8c-2e068c13a59a",
+                            "id": "a48e5838-6514-4dbc-8c96-82a0dd364557",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "visible"
+                            ],
+                            "label": "playerFourPrefab",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 840,
+                            "y": 1368,
+                            "visible": false,
+                            "nestedPrefabs": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "feffd594-4c52-4406-a0ce-b191f9654134",
+                            "label": "player_waiting_sound_button",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "sound_on"
+                            },
+                            "x": 1000,
+                            "y": 180,
+                            "visible": false
+                        },
+                        {
+                            "type": "Image",
+                            "id": "cbc24526-087c-4f44-9c4b-f06ab763a5e0",
+                            "label": "round_board",
+                            "components": [],
+                            "texture": {
+                                "key": "round_board"
+                            },
+                            "x": 540,
+                            "y": 250,
+                            "scaleX": 0.9,
+                            "scaleY": 0.9
+                        },
+                        {
+                            "type": "Text",
+                            "id": "7b268e15-3b25-4d75-a441-ede1e7af286c",
+                            "label": "text_1",
+                            "components": [],
+                            "x": 540,
+                            "y": 238,
+                            "scaleX": 0.6,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "REAL TIME MULTIPLAYER",
+                            "fontFamily": "CarterOne-Regular",
+                            "fontSize": "40px",
+                            "color": "#f0c900",
+                            "stroke": "#000000ff",
+                            "strokeThickness": 5
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2b3d8878-a435-4a65-8267-47d813ba70f0",
+                            "label": "room_code_bar",
+                            "components": [],
+                            "texture": {
+                                "key": "room_code_bar"
+                            },
+                            "x": 540,
+                            "y": 388
+                        },
+                        {
+                            "type": "Text",
+                            "id": "105f04b1-e812-49ad-a274-fa7e1439dc58",
+                            "label": "txtRoomCode",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 654,
+                            "y": 391,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "fontFamily": "myriadpro",
+                            "fontSize": "45px",
+                            "color": "#f0c900",
+                            "stroke": "#000",
+                            "strokeThickness": 5
+                        },
+                        {
+                            "type": "Container",
+                            "id": "387dbda9-81b5-4d98-a3c3-d5bcf621e2cd",
+                            "label": "prizePotContainer",
+                            "components": [],
+                            "x": 540,
+                            "y": 389,
+                            "list": [
+                                {
+                                    "type": "Text",
+                                    "id": "861c25b8-c0e5-464f-b5d3-b8b874e8e813",
+                                    "label": "text_waiting_screen",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "y": 100,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "fontFamily": "myriadpro",
+                                    "fontSize": "40px",
+                                    "color": "#00ec33ff"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "8954a040-10ad-4dc9-b128-859d3e128ea0",
+                            "label": "container_searching_player",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 1650,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "0c859a3a-145c-47d2-9c13-4b01dd836331",
+                                    "label": "search_player_bar",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "search-player-bar"
+                                    },
+                                    "y": 124
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "6a66c4a3-407f-49eb-9945-79e300c3fcd3",
+                                    "label": "search_player_bar_text",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "search-player-bar-text"
+                                    },
+                                    "y": 124,
+                                    "scaleX": 0.82,
+                                    "scaleY": 0.82,
+                                    "visible": false
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "56bf6d49-31b4-45e7-871c-5347440c0b71",
+                                    "label": "text_player_waiting",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "y": 124,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "visible": false,
+                                    "text": "Searching for player ...",
+                                    "fontFamily": "CarterOne-Regular",
+                                    "fontSize": "40px",
+                                    "stroke": "#000000ff",
+                                    "strokeThickness": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4f3794b1-8cb9-4dc9-899c-b9751deaaa71",
+                            "label": "exitIconBtn",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "exit_icon"
+                            },
+                            "x": 100,
+                            "y": 250,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "visible": false
+                        },
+                        {
+                            "prefabId": "308019d1-b0da-4be7-821e-3c55c89e7985",
+                            "id": "939e7f6f-d138-41c8-b8de-226976b7c3b2",
+                            "unlock": [
+                                "x",
+                                "y",
+                                "scaleX",
+                                "scaleY"
+                            ],
+                            "label": "gameExitButton",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 100,
+                            "y": 250,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5,
+                            "nestedPrefabs": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "b9f33eb9-481d-42d1-b563-032564e15a14",
+                    "label": "container_quit_popup",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "f8157059-767d-4e95-9e88-4aa82c7f1ab6",
+                            "label": "quit_popup_dark_background",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 960,
+                            "visible": false,
+                            "alpha": 0.6,
+                            "isFilled": true,
+                            "fillColor": "#000000",
+                            "width": 1080,
+                            "height": 1920
+                        },
+                        {
+                            "type": "Container",
+                            "id": "6a211461-a265-42f6-b845-0a08f579e9ab",
+                            "label": "container_quit",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 960,
+                            "scaleX": 0,
+                            "scaleY": 0,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "1e3eeb10-b993-4e8b-bbe6-adc4f98d4651",
+                                    "label": "quit_popup_box",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Pop-up-box-with-out-glow"
+                                    },
+                                    "x": 4,
+                                    "y": -53,
+                                    "scaleX": 1.18,
+                                    "scaleY": 1.1
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "042ef25e-7c9a-4503-b023-8a5ad1fb0387",
+                                    "label": "text_quit_message",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 10,
+                                    "y": -84,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "Your opponent will win if you quit!",
+                                    "lineSpacing": 10,
+                                    "align": "center",
+                                    "fontFamily": "Montserrat-Bold",
+                                    "fontSize": "45px",
+                                    "fontStyle": "bold"
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "2c2eaae1-061b-4afc-be93-bf37ec27e75a",
+                                    "label": "text_quit_message_1",
+                                    "components": [],
+                                    "x": 11,
+                                    "y": -199,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "QUIT GAME?",
+                                    "lineSpacing": 10,
+                                    "align": "center",
+                                    "fontFamily": "CarterOne-Regular",
+                                    "fontSize": "55px",
+                                    "color": "#f2c900"
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "2e6dd228-5add-4d8f-b76c-1d773d240c82",
+                                    "label": "button_yes",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Yes-button-01"
+                                    },
+                                    "x": -241,
+                                    "y": 83,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "5efb6be6-a867-4ce6-a27a-e38fbfe89243",
+                                    "label": "button_no",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "no-button-01"
+                                    },
+                                    "x": 241,
+                                    "y": 83,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                },
+                                {
+                                    "type": "Container",
+                                    "id": "2922d21a-323f-4433-ac13-15e423043388",
+                                    "label": "container_Sound",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "y": 85,
+                                    "list": [
+                                        {
+                                            "type": "Image",
+                                            "id": "5df9cc58-16a9-423b-978a-13280fc24f7c",
+                                            "label": "button_Soundon",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "Sound-button-01"
+                                            },
+                                            "scaleX": 0.9,
+                                            "scaleY": 0.9
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "id": "630b605e-e3e9-4ebb-a7db-504f84822671",
+                                            "label": "button_soundOff",
+                                            "scope": "CLASS",
+                                            "components": [],
+                                            "texture": {
+                                                "key": "Sound-off"
+                                            },
+                                            "visible": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2f23007a-d0aa-436a-b759-70108e14a5c6",
+                    "label": "container_game_finished",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Rectangle",
+                            "id": "2d08de98-7d05-4dd6-a734-b382c6be1cb6",
+                            "label": "quit_popup_dark_background_3",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 960,
+                            "alpha": 0.6,
+                            "isFilled": true,
+                            "fillColor": "#000000",
+                            "width": 1080,
+                            "height": 1920
+                        },
+                        {
+                            "type": "Image",
+                            "id": "66f64bad-f3c7-4187-a2b8-6818f91e65b6",
+                            "label": "quit_popup_box_2",
+                            "components": [],
+                            "texture": {
+                                "key": "Pop-up-box-with-out-glow"
+                            },
+                            "x": 540,
+                            "y": 975,
+                            "scaleX": 0.93,
+                            "scaleY": 0.3
+                        },
+                        {
+                            "type": "Text",
+                            "id": "cbbf5e99-7fd1-44a5-af3a-0ab97e505f8e",
+                            "label": "text_quit_message_2",
+                            "components": [],
+                            "x": 540,
+                            "y": 976,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "GAME HAS BEEN FINISHED",
+                            "lineSpacing": 10,
+                            "align": "center",
+                            "fontFamily": "Montserrat-Bold",
+                            "fontSize": "50px",
+                            "fontStyle": "bold"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "5607a68f-b433-4954-b354-9dfcd4fa7e32",
+                    "label": "container_missingTurnPopup",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 542,
+                    "y": 1767,
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "919d22a6-9685-440f-b33c-df1df3ad577a",
+                            "label": "blue_prompt",
+                            "components": [],
+                            "texture": {
+                                "key": "blue_prompt"
+                            }
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6cfac03f-189e-4d46-a24c-cbab4d39f2d9",
+                            "label": "missingTurn_text",
+                            "scope": "CLASS",
+                            "components": [],
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "You ran out of the time!",
+                            "fontFamily": "veriox-rg-4",
+                            "fontSize": "30px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "2735d2cd-415c-4b89-8396-3f068819d636",
+                    "label": "container_result_popup",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2c38740f-465d-49d5-a86c-a7d7caa185f2",
+                            "label": "gradient_background_popup_1",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "gradient_background_popup"
+                            },
+                            "x": 540,
+                            "y": 960,
+                            "alpha": 0.2,
+                            "alphaTopLeft": 0.2,
+                            "alphaTopRight": 0.2,
+                            "alphaBottomLeft": 0.2,
+                            "alphaBottomRight": 0.2
+                        },
+                        {
+                            "type": "Image",
+                            "id": "f72acfe1-6803-4bb3-a605-5108bd652f5b",
+                            "label": "gradient_background_popup",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "gradient_background_popup"
+                            },
+                            "x": 540,
+                            "y": 960
+                        },
+                        {
+                            "type": "Container",
+                            "id": "175c1a5b-da10-455c-a8de-29293f7d3859",
+                            "label": "container_firework",
+                            "scope": "CLASS",
+                            "components": [],
+                            "list": []
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7254539e-f3eb-457f-b621-af5e34684e43",
+                            "label": "pop_up_box",
+                            "components": [],
+                            "texture": {
+                                "key": "Pop-Up-box"
+                            },
+                            "x": 540,
+                            "y": 1503,
+                            "scaleX": 1.1,
+                            "scaleY": 1.1
+                        },
+                        {
+                            "type": "Image",
+                            "id": "0a6d92df-e0e0-4bf3-8aa6-9773e8e6b0f8",
+                            "label": "congratulations_text",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "Congratulations-text"
+                            },
+                            "x": 526,
+                            "y": 1159,
+                            "visible": false
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6e4a51ff-3cd8-4338-991b-4f3f771cdb22",
+                            "label": "text_roomCode",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 524,
+                            "y": 1698,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Room Code : ",
+                            "fontFamily": "adobeclean",
+                            "fontSize": "40px",
+                            "fontStyle": "bold",
+                            "shadow.offsetX": 1,
+                            "shadow.offsetY": -1,
+                            "shadow.stroke": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "29017359-fca1-48d4-955e-09d423fe9c52",
+                            "label": "text_youLost",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 1174,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "visible": false,
+                            "text": "You Lost",
+                            "fontFamily": "CarterOne-Regular",
+                            "fontSize": "60px",
+                            "color": "#f1d454",
+                            "stroke": "#000000ff",
+                            "strokeThickness": 5
+                        },
+                        {
+                            "type": "Container",
+                            "id": "ae8a3a14-a233-411f-8831-b3a6f66e3d4b",
+                            "label": "container_icones",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 540,
+                            "y": 1600,
+                            "scaleX": 1.2,
+                            "scaleY": 1.2,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "f13356b2-5f46-4050-8d0b-cf9061aeb0cc",
+                                    "label": "medal",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Medal"
+                                    },
+                                    "x": -281,
+                                    "y": -27,
+                                    "scaleX": 0.85,
+                                    "scaleY": 0.85
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "dc72d3a2-0147-4765-894a-9a8727e6486d",
+                                    "label": "catch_token",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Catch_token"
+                                    },
+                                    "x": -140,
+                                    "y": -25,
+                                    "scaleX": 0.85,
+                                    "scaleY": 0.85
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "17c87c6e-dd17-4a0c-a283-a31ea8609d5d",
+                                    "label": "blast_token",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Blast_token"
+                                    },
+                                    "y": -27,
+                                    "scaleX": 0.85,
+                                    "scaleY": 0.85
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "be9ed858-4dcb-4d87-bb03-c568f983024c",
+                                    "label": "like",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Like"
+                                    },
+                                    "x": 141,
+                                    "y": -25,
+                                    "scaleX": 0.85,
+                                    "scaleY": 0.85
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "1b3d2c10-f716-46f4-80eb-7b66ba2022f5",
+                                    "label": "dislike",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "dislike"
+                                    },
+                                    "x": 281,
+                                    "y": -26,
+                                    "scaleX": 0.85,
+                                    "scaleY": 0.85
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "30c88693-09b7-4b04-b7f1-8f3ed536ae0a",
+                                    "label": "text_dislike",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 281,
+                                    "y": 26,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "0",
+                                    "fontFamily": "adobeclean",
+                                    "fontSize": "25px",
+                                    "fontStyle": "bold",
+                                    "shadow.offsetX": 1,
+                                    "shadow.offsetY": -1,
+                                    "shadow.stroke": true
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "253ba114-8a9f-40d2-ac81-18c90e8a0bc9",
+                                    "label": "text_like",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": 141,
+                                    "y": 26,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "0",
+                                    "fontFamily": "adobeclean",
+                                    "fontSize": "25px",
+                                    "fontStyle": "bold",
+                                    "shadow.offsetX": 1,
+                                    "shadow.offsetY": -1,
+                                    "shadow.stroke": true
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "ba9c8f19-fa9d-41ef-b910-8771d2e2ddcf",
+                                    "label": "text_killPwon",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "y": 26,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "20",
+                                    "fontFamily": "adobeclean",
+                                    "fontSize": "25px",
+                                    "fontStyle": "bold",
+                                    "shadow.offsetX": 1,
+                                    "shadow.offsetY": -1,
+                                    "shadow.stroke": true
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "b28cc19e-5d6c-4d95-b440-90c293d36203",
+                                    "label": "text_catch",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": -140,
+                                    "y": 26,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "13",
+                                    "fontFamily": "adobeclean",
+                                    "fontSize": "25px",
+                                    "fontStyle": "bold",
+                                    "shadow.offsetX": 1,
+                                    "shadow.offsetY": -1,
+                                    "shadow.stroke": true
+                                },
+                                {
+                                    "type": "Text",
+                                    "id": "4ff164b9-22a3-4d54-a30d-a225440f2665",
+                                    "label": "text_madel",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "x": -281,
+                                    "y": 26,
+                                    "originX": 0.5,
+                                    "originY": 0.5,
+                                    "text": "1",
+                                    "fontFamily": "adobeclean",
+                                    "fontSize": "25px",
+                                    "fontStyle": "bold",
+                                    "shadow.offsetX": 1,
+                                    "shadow.offsetY": -1,
+                                    "shadow.stroke": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "id": "142f1118-c815-491a-899c-bd7ee6f5fb04",
+                            "label": "container_buttons",
+                            "scope": "CLASS",
+                            "components": [],
+                            "x": 517,
+                            "y": 1786,
+                            "list": [
+                                {
+                                    "type": "Image",
+                                    "id": "b1257dec-f956-4c19-bfab-9d3968cd8d14",
+                                    "label": "f_Share_Btn",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "F_Share_Btn"
+                                    },
+                                    "x": 255,
+                                    "scaleX": 0.8,
+                                    "scaleY": 0.8
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "b5ca10c0-6ce0-4fc5-99c0-fc7dcaba5ebe",
+                                    "label": "share_btn",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Share_btn"
+                                    },
+                                    "x": 45,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "d0574362-ac4e-401c-8dea-63ab560606c1",
+                                    "label": "home",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "Menu_Btn"
+                                    },
+                                    "x": -236,
+                                    "scaleX": 0.8,
+                                    "scaleY": 0.8
+                                },
+                                {
+                                    "type": "Image",
+                                    "id": "721c71d0-6e81-4a98-b564-731f607d8b77",
+                                    "label": "resultScreenSoundBtn",
+                                    "scope": "CLASS",
+                                    "components": [],
+                                    "texture": {
+                                        "key": "sound_on"
+                                    },
+                                    "x": -66,
+                                    "scaleX": 0.9,
+                                    "scaleY": 0.9
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "c5e37b49-0916-4a5c-a2b9-6ab710ee7886",
+                    "label": "container_wifi",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "22ee5c22-9e4a-4b09-95d1-663a88895bbb",
+                            "label": "gradient_background_popup_2",
+                            "components": [],
+                            "texture": {
+                                "key": "gradient_background_popup"
+                            },
+                            "x": 540,
+                            "y": 960
+                        },
+                        {
+                            "type": "Image",
+                            "id": "4284a5c2-b1b7-4925-83d5-970b201456fb",
+                            "label": "wifi_icon",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "wifi-icon"
+                            },
+                            "x": 540,
+                            "y": 960,
+                            "scaleX": 0.8,
+                            "scaleY": 0.8
+                        },
+                        {
+                            "type": "Image",
+                            "id": "98026af0-fe1c-4c19-8cc4-55d11daa7935",
+                            "label": "network_loading",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "network-loading"
+                            },
+                            "x": 540,
+                            "y": 960
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "7556d83a-ef08-4783-bfda-2c1f1ca45c9d",
+                    "label": "container_ping _high",
+                    "scope": "CLASS",
+                    "components": [],
+                    "visible": false,
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "2cf62ba5-29dc-47d9-9642-130efda2e48c",
+                            "label": "gradient_background_popup_3",
+                            "components": [],
+                            "texture": {
+                                "key": "gradient_background_popup"
+                            },
+                            "x": 540,
+                            "y": 960
+                        },
+                        {
+                            "type": "Image",
+                            "id": "7908dd5c-b51e-4eae-b7fd-d77098c75bd6",
+                            "label": "pop_up_box_3",
+                            "components": [],
+                            "texture": {
+                                "key": "Pop-up-box"
+                            },
+                            "x": 540,
+                            "y": 960,
+                            "scaleY": 0.5
+                        },
+                        {
+                            "type": "Text",
+                            "id": "ff8ba12a-e1c9-43bf-b49f-58396d92fe41",
+                            "label": "networkUnstableText",
+                            "components": [],
+                            "x": 540,
+                            "y": 960,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Your Network seems Unstable! Please Join Back...",
+                            "align": "center",
+                            "fontFamily": "VerioxBold",
+                            "fontSize": "30px",
+                            "fontStyle": "bold"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "5a8c3555-68ff-4854-b581-e720650330a2",
+                            "label": "warningText",
+                            "components": [],
+                            "x": 540,
+                            "y": 880,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "OOPS!",
+                            "align": "center",
+                            "fontFamily": "VerioxBold",
+                            "fontSize": "60px",
+                            "fontStyle": "bold",
+                            "color": "#f1d454",
+                            "stroke": "#f1d454"
+                        },
+                        {
+                            "type": "Image",
+                            "id": "2e744c78-9ae9-4bd6-ba79-81cc66135bc7",
+                            "label": "lobbyIconBtn",
+                            "scope": "CLASS",
+                            "components": [],
+                            "texture": {
+                                "key": "Leave-icon"
+                            },
+                            "x": 540,
+                            "y": 1060,
+                            "scaleX": 0.5,
+                            "scaleY": 0.5
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
